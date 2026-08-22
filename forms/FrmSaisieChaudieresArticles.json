@@ -1,0 +1,34 @@
+﻿{
+  "Info": {
+    "Class": "clsDbForm",
+    "Description": "FrmSaisieChaudieresArticles Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 1,
+      "TopMargin": 1,
+      "RightMargin": 1,
+      "BotMargin": 1,
+      "DataOnly": false,
+      "Width": 5,
+      "Height": 3,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Formulaire De Saisie Des Articles Chaudieres"
+      }
+    }
+  }
+}

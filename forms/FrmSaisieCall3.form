@@ -1,0 +1,2040 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    RecordSelectors = NotDefault
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    CloseButton = NotDefault
+    PictureTiling = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    DefaultView =0
+    ScrollBars =2
+    ViewsAllowed =1
+    BorderStyle =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    Cycle =1
+    GridY =10
+    Width =11355
+    ItemSuffix =1316
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    Filter ="SocNum=106"
+    Toolbar ="Outil Coeur De Pro 2003"
+    RecSrcDt = Begin
+        0x6cd6b78737a0e240
+    End
+    RecordSource ="SELECT SocNum, SocSTA, TBLSOCIETESCALL3.* FROM TBLSOCIETES LEFT JOIN TBLSOCIETES"
+        "CALL3 ON TBLSOCIETES.SocNum=TBLSOCIETESCALL3.SocCallSocNum WHERE (((TBLSOCIETES."
+        "SocAdh)=True)); "
+    Caption ="Saisie Du Questionnaires Du Call 3 - FINANCEMENT- JUIN 2004 - 2003"
+    OnCurrent ="[Event Procedure]"
+    BeforeUpdate ="[Event Procedure]"
+    OnOpen ="[Event Procedure]"
+    MenuBar ="Menu Coeur De Pro 2003"
+    DatasheetFontName ="Arial"
+    OnActivate ="[Event Procedure]"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            SpecialEffect =3
+            Width =1701
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin PageBreak
+            Width =283
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =690
+            Name ="EntêteFormulaire"
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    TextFontFamily =2
+                    Left =1755
+                    Top =45
+                    Width =651
+                    Height =621
+                    FontSize =10
+                    FontWeight =700
+                    Name ="CmdRechercher"
+                    Caption ="Nouvelle Recherche"
+                    StatusBarText ="Nouvelle recherche"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000020000000200000000100200000000000001000000000000000000000 ,
+                        0x0000000000000000c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d4000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000777777007777770077777700c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0x000000000000000000000000ffcccc00ffcccc00ffcccc00ffcccc00ffffff00 ,
+                        0xcc999900ffffff00cc999900cc99990000000000000000000000000077777700 ,
+                        0x7777770077777700c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4000000000000000000 ,
+                        0xffcccc00ffcccc00ffcccc00ffcccc00ffcccc00ffcccc00ffcccc00ffffff00 ,
+                        0xcc999900ffffff00cc999900cc999900cc999900cc999900cc99990000000000 ,
+                        0x00000000777777007777770077777700c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d40000000000cc999900cc999900 ,
+                        0xffcccc00ffcccc00ffcccc00ffcccc00ffcccc00ffcccc00ffcccc00ffffff00 ,
+                        0xcc999900ffffff00cc999900cc999900cc999900cc999900cc999900cc999900 ,
+                        0xcc99990000000000777777007777770077777700c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d40000000000cc999900cc999900cc999900 ,
+                        0xffcccc00ffcccc00ffcccc00ffcccc00ffcccc00ffcccc00ffcccc00ffffff00 ,
+                        0xcc999900ffffff00cc999900cc999900cc999900cc999900cc999900cc999900 ,
+                        0xcc999900cc99990000000000777777007777770077777700c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d40000000000cc999900cc999900cc999900cc999900 ,
+                        0xffcccc00ffcccc00ffcccc000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000cc999900cc999900cc999900cc999900 ,
+                        0xcc999900cc999900cc99990000000000777777007777770077777700c8d0d400 ,
+                        0xc8d0d400c8d0d40000000000cc999900cc999900cc999900cc999900cc999900 ,
+                        0x000000000000000000000000ffffff00ffffff00ffffff00ffffff00ffffff00 ,
+                        0xffffff00ffffff00ffffff00ffffff00000000000000000000000000cc999900 ,
+                        0xcc999900cc999900cc999900cc999900000000007777770077777700c8d0d400 ,
+                        0xc8d0d400c8d0d40000000000cc999900cc999900cc9999000000000000000000 ,
+                        0xffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00 ,
+                        0xffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff0000000000 ,
+                        0x00000000cc999900cc999900cc99990000000000777777007777770077777700 ,
+                        0xc8d0d400c8d0d40000000000cc999900cc99990000000000ffffff00ffffff00 ,
+                        0xffffff00ffffff00000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000ffffff00ffffff00ffffff00ffffff00 ,
+                        0xffffff0000000000cc999900cc99990000000000777777007777770077777700 ,
+                        0xc8d0d400c8d0d40000000000cc99990000000000ffffff00ffffff00ffffff00 ,
+                        0x0000000000000000ff999900ff999900ff999900ff999900ff999900ff999900 ,
+                        0xff999900ff999900ff999900ff999900000000000000000000000000ffffff00 ,
+                        0xffffff00ffffff0000000000cc99990000000000777777007777770077777700 ,
+                        0x77777700c8d0d4000000000000000000ffffff00ffffff00ffffff0000000000 ,
+                        0xff999900ff999900ff999900ff999900ff999900ff999900ff999900ff999900 ,
+                        0xff999900ff999900ff999900ff999900ff999900ff999900ff99990000000000 ,
+                        0xffffff00ffffff00ffffff000000000000000000777777007777770077777700 ,
+                        0x77777700c8d0d40000000000ffffff00ffffff00ffffff000000000099666600 ,
+                        0xff999900ff999900ff999900ff999900ff999900ff999900ff999900ff999900 ,
+                        0xff999900ffffff00ffffff00ffffff00ff999900ff999900ff999900ff999900 ,
+                        0x00000000ffffff00ffffff00ffffff0000000000777777007777770077777700 ,
+                        0x77777700c8d0d40000000000ffffff00ffffff0000000000cc999900ff999900 ,
+                        0x99666600ff999900ff999900ff999900ff999900ff999900ff999900ff999900 ,
+                        0xff999900ff999900ff999900ff999900ffffff00ff999900ff99990099666600 ,
+                        0xff99990000000000ffffff00ffffff0000000000777777007777770077777700 ,
+                        0xc8d0d400c8d0d40000000000ffffff00ffffff0000000000cc999900cc999900 ,
+                        0xff9999009966660099666600ffcccc00ff999900ff999900ff999900ff999900 ,
+                        0xff999900ff999900ff999900ff999900ffffff009966660099666600ff999900 ,
+                        0xcc99990000000000ffffff00ffffff0000000000777777007777770077777700 ,
+                        0xc8d0d400c8d0d40000000000ffffff00ffffff0000000000cc999900cc999900 ,
+                        0xcc999900ff999900ffcccc00ffffff00ffcccc00996666009966660099666600 ,
+                        0x9966660099666600996666009966660099666600ff999900cc999900cc999900 ,
+                        0xcc99990000000000ffffff00ffffff00000000007777770077777700c8d0d400 ,
+                        0xc8d0d400c8d0d40000000000ffffff00ffffff00ffffff0000000000cc999900 ,
+                        0xcc999900cc999900cc999900ffcccc00ff999900ff999900ff999900ff999900 ,
+                        0xff999900ff999900ff999900ff999900ff999900cc999900a4a0a000ff999900 ,
+                        0x00000000ffffff00ffffff00ffffff000000000077777700c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d40000000000ffffff00ffffff00ffffff0000000000 ,
+                        0xcc999900cc999900cc999900cc999900cc999900cc999900cc999900cc999900 ,
+                        0xcc999900cc999900cc999900cc999900cc999900cc999900cc99990000000000 ,
+                        0xffffff00ffffff00ffffff0000000000c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d40000000000ffffff00ffffff00ffffff00 ,
+                        0x000000000000000000000000cc999900cc999900cc999900cc999900cc999900 ,
+                        0xcc999900cc999900cc999900cc999900cc9999000000000000000000ffffff00 ,
+                        0xffffff00ffffff0000000000c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d40000000000ffffff00ffffff00 ,
+                        0xffffff00ffffff00ffffff000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000ffffff00ffffff00ffffff00 ,
+                        0xffffff00000000007777770077777700c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4000000000000000000 ,
+                        0xffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00 ,
+                        0xffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff0000000000 ,
+                        0x0000000099999900000000007777770077777700c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0x000000000000000000000000ffffff00ffffff00ffffff00ffffff00ffffff00 ,
+                        0xffffff00ffffff00ffffff00ffffff00ffffff000000000000000000c0c0c000 ,
+                        0xc0c0c000c0c0c00099999900000000007777770077777700c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d4000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000c0c0c000ffffff00ffffff00 ,
+                        0xc0c0c000c0c0c000c0c0c00000000000000000007777770077777700c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d40000000000c0c0c000ffffff00 ,
+                        0xffffff00c0c0c000000000000000000000000000000000007777770077777700 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4000000000000000000 ,
+                        0x0000000000000000111111000000000000000000000000000000000077777700 ,
+                        0x77777700c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d40000000000 ,
+                        0x2222220077777700222222001111110000000000000000000000000000000000 ,
+                        0x7777770077777700c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0x0000000022222200777777002222220011111100000000000000000000000000 ,
+                        0x0000000077777700c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d40000000000222222007777770022222200111111000000000000000000 ,
+                        0x0000000000000000c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400000000002222220077777700222222001111110000000000 ,
+                        0x0000000000000000c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d4000000000022222200777777002222220011111100 ,
+                        0x0000000000000000c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d40000000000222222007777770022222200 ,
+                        0x1111110000000000c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400000000000000000000000000 ,
+                        0x00000000c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400
+                    End
+                    FontName ="System"
+                    ControlTipText ="Nouvelle recherche"
+                    Picture ="RECHERCHER.ICO"
+
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =10680
+                    Top =45
+                    Width =621
+                    Height =606
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =128
+                    Name ="CmdMinimize"
+                    Caption ="Minimize"
+                    StatusBarText ="Minimize"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000020000000200000000100040000000000000200000000000000000000 ,
+                        0x1000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x80800000c0c0c000808080000000ff0000ff000000ffff00ff000000ff00ff00 ,
+                        0xffff0000ffffff00777777777777777777777777777777777777777777777777 ,
+                        0x7777777777777777777777777777777777777777777777777777777777777777 ,
+                        0x7777777777777777777777777777778777777777777777777777777777777888 ,
+                        0x0777777777777777777777777777888000777777777777777777777777788800 ,
+                        0x0707777777777777777777777788800000707777777777777777777778880000 ,
+                        0x0007077777777777777777778880000000007077777777777777777888000000 ,
+                        0x0000070777777777777777888000000000000070777777777777788800000000 ,
+                        0x0000000707777777777788800000000000000000707777777777770000000000 ,
+                        0x0000000000077777777777777880000000007077777777777777777778800000 ,
+                        0x0000707777777777777777777880000000007077777777777777777778800000 ,
+                        0x0000707777777777777777777880000000007077777777777777777778800000 ,
+                        0x0000707777777777777777777880000000007077777777777777777778800000 ,
+                        0x0000707777777777777777777880000000007077777777777777777778800000 ,
+                        0x0000707777777777777777777770000000000077777777777777777777777777 ,
+                        0x7777777777777777777777777777777777777777777777777777777777777777 ,
+                        0x7777777777777777777777777777777777777777777777777777777777777777 ,
+                        0x7777777777777777
+                    End
+                    FontName ="Arial"
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Minimize"
+
+                End
+            End
+        End
+        Begin Section
+            CanGrow = NotDefault
+            Height =13695
+            Name ="Détail"
+            Begin
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    Left =9090
+                    Top =2310
+                    Width =2166
+                    Height =255
+                    TabIndex =3
+                    Name ="CadSocCallQst1"
+                    ControlSource ="SocCallQst1"
+
+                    Begin
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =9225
+                            Top =2385
+                            Width =155
+                            Height =165
+                            OptionValue =1
+                            Name ="OptSocCallQst1Oui"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =9465
+                                    Top =2310
+                                    Width =375
+                                    Height =255
+                                    Name ="EtiSocCallQst1Oui"
+                                    Caption ="OUI"
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =10500
+                            Top =2385
+                            Width =140
+                            Height =150
+                            OptionValue =2
+                            Name ="OptSocCallQst1Non"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =10725
+                                    Top =2310
+                                    Width =420
+                                    Height =255
+                                    Name ="EtiSocCallQst1Non"
+                                    Caption ="NON"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    Left =9090
+                    Top =2655
+                    Width =2166
+                    Height =255
+                    TabIndex =4
+                    Name ="CadSocCallQst2"
+                    ControlSource ="SocCallQst2"
+                    AfterUpdate ="[Event Procedure]"
+
+                    Begin
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =9225
+                            Top =2730
+                            Width =155
+                            Height =165
+                            OptionValue =1
+                            Name ="OptSocCallQst2Oui"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =9465
+                                    Top =2655
+                                    Width =375
+                                    Height =255
+                                    Name ="EtiSocCallQst2Oui"
+                                    Caption ="OUI"
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =10500
+                            Top =2730
+                            Width =140
+                            Height =150
+                            OptionValue =2
+                            Name ="OptSocCallQst2Non"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =10725
+                                    Top =2655
+                                    Width =420
+                                    Height =255
+                                    Name ="EtiSocCallQst2Non"
+                                    Caption ="NON"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin PageBreak
+                    OverlapFlags =85
+                    Top =5955
+                    Name ="Saut de page149"
+                    EventProcPrefix ="Saut_de_page149"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =3
+                    OverlapFlags =85
+                    TextAlign =3
+                    BackStyle =0
+                    Left =9090
+                    Top =1995
+                    Width =2178
+                    Height =255
+                    TabIndex =2
+                    BackColor =12632256
+                    Name ="TxtSocCallDateSaisie"
+                    ControlSource ="SocCallDateSaisie"
+                    Format ="Short Date"
+                    StatusBarText ="Societe Call Date Saisie"
+                    FontName ="Arial"
+                    InputMask ="99/99/0000;0;_"
+                    ControlTipText ="Societe Call Date Saisie"
+
+                    Begin
+                        Begin Label
+                            SpecialEffect =1
+                            OldBorderStyle =1
+                            OverlapFlags =85
+                            Left =90
+                            Top =1995
+                            Width =8940
+                            Height =255
+                            FontWeight =700
+                            BackColor =12632256
+                            ForeColor =128
+                            Name ="EtiSocCallDateSaisie"
+                            Caption ="Date Saisie"
+                            FontName ="Arial"
+                            ControlTipText ="Societe Call Date Saisie"
+                        End
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =75
+                    Top =3000
+                    Width =2925
+                    Height =405
+                    FontWeight =700
+                    Name ="EtiSocCallQst4a"
+                    Caption ="Si non, passer à la question 7 : Si oui :"
+                End
+                Begin Label
+                    BackStyle =1
+                    OverlapFlags =85
+                    Left =75
+                    Top =2655
+                    Width =7275
+                    Height =240
+                    BackColor =16777215
+                    Name ="EtiSocCallQst2"
+                    Caption ="1 - Proposez-vous des offres de prets a vos clients pour le financement de leur "
+                        "installation chauffage ?"
+                End
+                Begin Label
+                    BackStyle =1
+                    OverlapFlags =85
+                    Left =75
+                    Top =2310
+                    Width =8265
+                    Height =240
+                    BackColor =16777215
+                    Name ="EtiSocCallQst1"
+                    Caption ="Pouvez-vous m'indiquer si les coordonnées dont je dispose correspondent bien à v"
+                        "os coordonnées professionelles ?"
+                End
+                Begin PageBreak
+                    OverlapFlags =85
+                    Top =11940
+                    Name ="Saut de page1224"
+                    EventProcPrefix ="Saut_de_page1224"
+                End
+                Begin Subform
+                    OverlapFlags =85
+                    OldBorderStyle =0
+                    SpecialEffect =0
+                    Left =60
+                    Top =375
+                    Width =11286
+                    Height =1566
+                    TabIndex =5
+                    Name ="SFrmSaisieCallSocietes"
+                    SourceObject ="Form.SFrmSaisieCallSocietes"
+                    LinkChildFields ="SocNum"
+                    LinkMasterFields ="SocNum"
+
+                End
+                Begin Subform
+                    OverlapFlags =85
+                    OldBorderStyle =0
+                    SpecialEffect =0
+                    Left =1860
+                    Width =9495
+                    Height =375
+                    TabIndex =6
+                    Name ="SFrmSaisieCallContacts"
+                    SourceObject ="Form.SFrmSaisieCallContacts"
+                    LinkChildFields ="ConSocNum"
+                    LinkMasterFields ="SocNum"
+
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =3
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =105
+                    Top =45
+                    Width =1725
+                    Height =270
+                    TabIndex =1
+                    BackColor =12632256
+                    Name ="CmbSocCallSocSTA"
+                    ControlSource ="SocSTA"
+                    StatusBarText ="Societe Call Societe Numero"
+                    FontName ="Arial"
+                    ControlTipText ="Societe Call Societe Numero"
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =3546
+                    Top =3525
+                    Width =7716
+                    TabIndex =7
+                    Name ="TxtSocCallQst3"
+                    ControlSource ="SocCallQst3"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =555
+                            Top =3525
+                            Width =900
+                            Height =240
+                            Name ="EtiSocCallQst3"
+                            Caption ="lesquelles ?"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =3540
+                    Top =4005
+                    Width =7701
+                    Name ="TxtSocCallQst4"
+                    ControlSource ="SocCallQst4"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =75
+                            Top =3900
+                            Width =2235
+                            Height =435
+                            Name ="EtiSocCallQst5"
+                            Caption ="2 - Avec quels organismes de financement travaillez-vous ?"
+                        End
+                    End
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    RowSourceTypeInt =1
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =4536
+                    Left =3525
+                    Top =4560
+                    Width =7701
+                    TabIndex =8
+                    Name ="LstSocCallQst5"
+                    ControlSource ="SocCallQst5"
+                    RowSourceType ="Value List"
+                    RowSource ="0;;1;\"POUR CONVAINCRE VOTRE CLIENT D'ACHETER UNE CHAUDIERE PLUS HAUT DE GAMME\""
+                        ";2;\"LORSQUE LE DEVIS DEPASSE UN CERTAIN MONTANT (INDIQUER LEQUEL)\";3;\"LORSQUE"
+                        " LE CLIENT DEMANDE UN FINANCEMENT\";4;\"DANS TOUS LES CAS\";5;\"AUTRES\""
+                    ColumnWidths ="0;2268"
+                    StatusBarText ="Societe Call Question 5"
+                    AfterUpdate ="[Event Procedure]"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =75
+                            Top =4455
+                            Width =2520
+                            Height =435
+                            Name ="Étiquette1232"
+                            Caption ="3 - Dans quels cas proposez-vous une offre de pret a vos clients ?"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =3531
+                    Top =5385
+                    Width =7716
+                    TabIndex =9
+                    Name ="TxtSocCallQst7"
+                    ControlSource ="SocCallQst7"
+
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =85
+                            Left =555
+                            Top =5385
+                            Width =615
+                            Height =240
+                            Name ="EtiSocCallQst7"
+                            Caption ="Autres :"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =3531
+                    Top =5010
+                    Width =7716
+                    TabIndex =10
+                    Name ="TxtSocCallQst6"
+                    ControlSource ="SocCallQst6"
+
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =85
+                            Left =555
+                            Top =5010
+                            Width =1200
+                            Height =240
+                            Name ="EtiSocCallQst6"
+                            Caption ="Indiquer lequel :"
+                        End
+                    End
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OverlapFlags =93
+                    Left =7215
+                    Top =6375
+                    Width =2166
+                    Height =255
+                    TabIndex =11
+                    Name ="CadSocCallQst8"
+                    ControlSource ="SocCallQst8"
+
+                    Begin
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =7350
+                            Top =6450
+                            Width =155
+                            Height =165
+                            OptionValue =1
+                            Name ="OptSocCallQst8Oui"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =7590
+                                    Top =6375
+                                    Width =375
+                                    Height =255
+                                    Name ="EtiSocCallQst8Oui"
+                                    Caption ="OUI"
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =8625
+                            Top =6450
+                            Width =140
+                            Height =150
+                            OptionValue =2
+                            Name ="OptSocCallQst8Non"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =8850
+                                    Top =6375
+                                    Width =420
+                                    Height =255
+                                    Name ="EtiSocCallQst8Non"
+                                    Caption ="NON"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    OverlapFlags =85
+                    Left =75
+                    Top =6030
+                    Width =6735
+                    Height =240
+                    BackColor =16777215
+                    Name ="EtiSocCallQst8a"
+                    Caption ="4 - Sur quel type d'installations proposez-vous un financement a vos clients ? ("
+                        "laisser repondre)"
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    OverlapFlags =95
+                    Left =555
+                    Top =6375
+                    Width =6660
+                    Height =255
+                    BackColor =16777215
+                    Name ="EtiSocCallQst8b"
+                    Caption ="CHAUDIERES AU SOL"
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OverlapFlags =95
+                    Left =7215
+                    Top =6630
+                    Width =2166
+                    Height =255
+                    TabIndex =12
+                    Name ="CadSocCallQst9"
+                    ControlSource ="SocCallQst9"
+
+                    Begin
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =7350
+                            Top =6705
+                            Width =155
+                            Height =165
+                            OptionValue =1
+                            Name ="OptSocCallQst9Oui"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =7590
+                                    Top =6630
+                                    Width =375
+                                    Height =255
+                                    Name ="EtiSocCallQst9Oui"
+                                    Caption ="OUI"
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =8625
+                            Top =6705
+                            Width =140
+                            Height =150
+                            OptionValue =2
+                            Name ="OptSocCallQst9Non"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =8850
+                                    Top =6630
+                                    Width =420
+                                    Height =255
+                                    Name ="EtiSocCallQst9Non"
+                                    Caption ="NON"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    OverlapFlags =95
+                    Left =555
+                    Top =6630
+                    Width =6660
+                    Height =255
+                    BackColor =16777215
+                    Name ="EtiSocCallQst9"
+                    Caption ="CHAUDIERES MURALES INSTANTEES (TYPE THEMA)"
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OverlapFlags =95
+                    Left =7215
+                    Top =6885
+                    Width =2166
+                    Height =255
+                    TabIndex =13
+                    Name ="CadSocCallQst10"
+                    ControlSource ="SocCallQst10"
+
+                    Begin
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =7350
+                            Top =6960
+                            Width =155
+                            Height =165
+                            OptionValue =1
+                            Name ="OptSocCallQst10Oui"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =7590
+                                    Top =6885
+                                    Width =375
+                                    Height =255
+                                    Name ="EtiSocCallQst10Oui"
+                                    Caption ="OUI"
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =8625
+                            Top =6960
+                            Width =140
+                            Height =150
+                            OptionValue =2
+                            Name ="OptSocCallQst10Non"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =8850
+                                    Top =6885
+                                    Width =420
+                                    Height =255
+                                    Name ="EtiSocCallQst10Non"
+                                    Caption ="NON"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    OverlapFlags =95
+                    Left =555
+                    Top =6885
+                    Width =6660
+                    Height =255
+                    BackColor =16777215
+                    Name ="EtiSocCallQst10"
+                    Caption ="CHAUDIERES MURALES MICRO-ACCUMULEES (TYPE THEMAPLUS ON ISOSPLIT)"
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OverlapFlags =95
+                    Left =7215
+                    Top =7140
+                    Width =2166
+                    Height =255
+                    TabIndex =14
+                    Name ="CadSocCallQst11"
+                    ControlSource ="SocCallQst11"
+
+                    Begin
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =7350
+                            Top =7215
+                            Width =155
+                            Height =165
+                            OptionValue =1
+                            Name ="OptSocCallQst11Oui"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =7590
+                                    Top =7140
+                                    Width =375
+                                    Height =255
+                                    Name ="EtiSocCallQst11Oui"
+                                    Caption ="OUI"
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =8625
+                            Top =7215
+                            Width =140
+                            Height =150
+                            OptionValue =2
+                            Name ="OptSocCallQst11Non"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =8850
+                                    Top =7140
+                                    Width =420
+                                    Height =255
+                                    Name ="EtiSocCallQst11Non"
+                                    Caption ="NON"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    OverlapFlags =95
+                    Left =555
+                    Top =7140
+                    Width =6660
+                    Height =255
+                    BackColor =16777215
+                    Name ="EtiSocCallQst11"
+                    Caption ="CHAUDIERES MURALES AVEC BALLON INTEGRE (TYPE ISOMAX OU ISOTWIN)"
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OverlapFlags =95
+                    Left =7215
+                    Top =7395
+                    Width =2166
+                    Height =255
+                    TabIndex =15
+                    Name ="CadSocCallQst12"
+                    ControlSource ="SocCallQst12"
+
+                    Begin
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =7350
+                            Top =7470
+                            Width =155
+                            Height =165
+                            OptionValue =1
+                            Name ="OptSocCallQst12Oui"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =7590
+                                    Top =7395
+                                    Width =375
+                                    Height =255
+                                    Name ="EtiSocCallQst12Oui"
+                                    Caption ="OUI"
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =8625
+                            Top =7470
+                            Width =140
+                            Height =150
+                            OptionValue =2
+                            Name ="OptSocCallQst12Non"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =8850
+                                    Top =7395
+                                    Width =420
+                                    Height =255
+                                    Name ="EtiSocCallQst12Non"
+                                    Caption ="NON"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    OverlapFlags =95
+                    Left =555
+                    Top =7395
+                    Width =6660
+                    Height =255
+                    BackColor =16777215
+                    Name ="EtiSocCallQst12"
+                    Caption ="CHAUDIERES MURALES AVEC BALLON SEPARE"
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OverlapFlags =95
+                    Left =7215
+                    Top =7650
+                    Width =2166
+                    Height =255
+                    TabIndex =16
+                    Name ="CadSocCallQst13"
+                    ControlSource ="SocCallQst13"
+
+                    Begin
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =7350
+                            Top =7725
+                            Width =155
+                            Height =165
+                            OptionValue =1
+                            Name ="OptSocCallQst13Oui"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =7590
+                                    Top =7650
+                                    Width =375
+                                    Height =255
+                                    Name ="EtiSocCallQst13Oui"
+                                    Caption ="OUI"
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =8625
+                            Top =7725
+                            Width =140
+                            Height =150
+                            OptionValue =2
+                            Name ="OptSocCallQst13Non"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =8850
+                                    Top =7650
+                                    Width =420
+                                    Height =255
+                                    Name ="EtiSocCallQst13Non"
+                                    Caption ="NON"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    OverlapFlags =95
+                    Left =555
+                    Top =7650
+                    Width =6660
+                    Height =255
+                    BackColor =16777215
+                    Name ="Étiquette1278"
+                    Caption ="CHAUDIERES MURALES A CONDENSATION"
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OverlapFlags =95
+                    Left =7215
+                    Top =7905
+                    Width =2166
+                    Height =255
+                    TabIndex =17
+                    Name ="CadSocCallQst14"
+                    ControlSource ="SocCallQst14"
+
+                    Begin
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =7350
+                            Top =7980
+                            Width =155
+                            Height =165
+                            OptionValue =1
+                            Name ="OptSocCallQst14Oui"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =7590
+                                    Top =7905
+                                    Width =375
+                                    Height =255
+                                    Name ="EtiSocCallQst14Oui"
+                                    Caption ="OUI"
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =8625
+                            Top =7980
+                            Width =140
+                            Height =150
+                            OptionValue =2
+                            Name ="OptSocCallQst14Non"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =8850
+                                    Top =7905
+                                    Width =420
+                                    Height =255
+                                    Name ="EtiSocCallQst14Non"
+                                    Caption ="NON"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =555
+                    Top =7905
+                    Width =6660
+                    Height =255
+                    BackColor =16777215
+                    Name ="EtiSocCallQst14"
+                    Caption ="CHAUDIERES ASSOCIEES A UN SYSTEME SOLAIRE"
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =3516
+                    Top =8310
+                    Width =7716
+                    TabIndex =18
+                    Name ="TxtSocCallQst15"
+                    ControlSource ="SocCallQst15"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =555
+                            Top =8310
+                            Width =615
+                            Height =240
+                            Name ="EtiSocCallQst15"
+                            Caption ="Autres :"
+                        End
+                    End
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    Left =9075
+                    Top =8910
+                    Width =2166
+                    Height =255
+                    TabIndex =19
+                    Name ="CadSocCallQst16"
+                    ControlSource ="SocCallQst16"
+
+                    Begin
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =9210
+                            Top =8985
+                            Width =155
+                            Height =165
+                            OptionValue =1
+                            Name ="OptSocCallQst16Oui"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =9450
+                                    Top =8910
+                                    Width =375
+                                    Height =255
+                                    Name ="EtiSocCallQst16Oui"
+                                    Caption ="OUI"
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =10485
+                            Top =8985
+                            Width =140
+                            Height =150
+                            OptionValue =2
+                            Name ="OptSocCallQst16Non"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =10710
+                                    Top =8910
+                                    Width =420
+                                    Height =255
+                                    Name ="EtiSocCallQst16Non"
+                                    Caption ="NON"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    OverlapFlags =85
+                    Left =60
+                    Top =8910
+                    Width =8415
+                    Height =255
+                    BackColor =16777215
+                    Name ="EtiSocCallQst16"
+                    Caption ="5 - Une offre de financement specifique sur les chaudieres de la gamme ISO de Sa"
+                        "unier Duval vous interesserait-elle ?"
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    Left =9075
+                    Top =9285
+                    Width =2166
+                    Height =255
+                    TabIndex =20
+                    Name ="CadSocCallQst17"
+                    ControlSource ="SocCallQst17"
+
+                    Begin
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =9210
+                            Top =9360
+                            Width =155
+                            Height =165
+                            OptionValue =1
+                            Name ="OptSocCallQst17Oui"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =9450
+                                    Top =9285
+                                    Width =375
+                                    Height =255
+                                    Name ="EtiSocCallQst17Oui"
+                                    Caption ="OUI"
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =10485
+                            Top =9360
+                            Width =140
+                            Height =150
+                            OptionValue =2
+                            Name ="OptSocCallQst17Non"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =10710
+                                    Top =9285
+                                    Width =420
+                                    Height =255
+                                    Name ="EtiSocCallQst17Non"
+                                    Caption ="NON"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    OverlapFlags =85
+                    Left =60
+                    Top =9285
+                    Width =6795
+                    Height =240
+                    BackColor =16777215
+                    Name ="EtiSocCallQst17"
+                    Caption ="6 - Etes vous interesse par la possibilite de bonifier personnellement des prets"
+                        " pour vos clients ?"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =60
+                    Top =9675
+                    Width =2115
+                    Height =435
+                    FontWeight =700
+                    Name ="EtiSocCallQst18a"
+                    Caption ="Passer a la question 9 Si non :"
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    Left =9075
+                    Top =10275
+                    Width =2166
+                    Height =255
+                    TabIndex =21
+                    Name ="CadSocCallQst18"
+                    ControlSource ="SocCallQst18"
+
+                    Begin
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =9210
+                            Top =10350
+                            Width =155
+                            Height =165
+                            OptionValue =1
+                            Name ="OptSocCallQst18Oui"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =9450
+                                    Top =10275
+                                    Width =375
+                                    Height =255
+                                    Name ="EtiSocCallQst18Oui"
+                                    Caption ="OUI"
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =10485
+                            Top =10350
+                            Width =140
+                            Height =150
+                            OptionValue =2
+                            Name ="OptSocCallQst18Non"
+
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    Left =10710
+                                    Top =10275
+                                    Width =420
+                                    Height =255
+                                    Name ="EtiSocCallQst18Non"
+                                    Caption ="NON"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    OverlapFlags =85
+                    Left =60
+                    Top =10275
+                    Width =8010
+                    Height =435
+                    BackColor =16777215
+                    Name ="EtiSocCallQst18b"
+                    Caption ="7 - Connaissez-vous les differentes offres de pret proposees par les etablisseme"
+                        "nts de credit pour le financement d'installations de chauffage?"
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =3531
+                    Top =10830
+                    Width =7716
+                    TabIndex =22
+                    Name ="TxtSocCallQst19"
+                    ControlSource ="SocCallQst19"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =10830
+                            Width =3030
+                            Height =240
+                            Name ="EtiSocCallQst19"
+                            Caption ="Si oui, de quels etablissements de credit ?"
+                        End
+                    End
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    RowSourceTypeInt =1
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =4536
+                    Left =3531
+                    Top =11190
+                    Width =7701
+                    Height =255
+                    TabIndex =23
+                    Name ="LstSocCallQst20"
+                    ControlSource ="SocCallQst20"
+                    RowSourceType ="Value List"
+                    RowSource ="0;;1;\"TROP COMPLIQUE\";2;\"PAS DE DEMANDE DES CLIENTS\";3;\"CELA NE M'INTERESSE"
+                        " PAS (JE N'EN VOIS PAS L'INTERET)\";4;\"AUTRE (PRECISER)\""
+                    ColumnWidths ="0;2268"
+                    StatusBarText ="Societe Call Question 20"
+                    AfterUpdate ="[Event Procedure]"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =11190
+                            Width =3210
+                            Height =240
+                            Name ="EtiSocCallQst20"
+                            Caption ="8 - Pourquoi ne proposez-vous pas de pret ?"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =3531
+                    Top =11550
+                    Width =7701
+                    Height =255
+                    TabIndex =24
+                    Name ="TxtSocCallQst21"
+                    ControlSource ="SocCallQst21"
+                    StatusBarText ="Societe Call Question 21"
+
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =85
+                            Left =555
+                            Top =11535
+                            Width =615
+                            Height =240
+                            Name ="EtiSocCallQst21"
+                            Caption ="Autre :"
+                        End
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =75
+                    Top =12090
+                    Width =5760
+                    Height =240
+                    Name ="EtiSocCallQst22"
+                    Caption ="9 - Avez-vous des questions ou des remaques à faire sur le club ?"
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =94
+                    Top =12398
+                    Width =11151
+                    Height =1080
+                    TabIndex =25
+                    Name ="TxtSocCallQst22"
+                    ControlSource ="SocCallQst22"
+                    StatusBarText ="Societe Call Question 137"
+
+                End
+            End
+        End
+        Begin FormFooter
+            Height =660
+            Name ="PiedFormulaire"
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    TextFontFamily =2
+                    Left =75
+                    Top =45
+                    Width =622
+                    Height =591
+                    FontSize =10
+                    FontWeight =700
+                    Name ="CmdImprimer"
+                    Caption ="Imprimer"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000020000000200000000100180000000000000c00000000000000000000 ,
+                        0x0000000000000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f ,
+                        0x7fbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000007f7f7f7f7f ,
+                        0x7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7fbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbf000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f7f7f0000000000000000 ,
+                        0x000000000000000000000000000000000000000000007f7f7f7f7f7f7f7f7fbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbf0000007f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f0000007f7f ,
+                        0x7f7f7f7fbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf0000007f7f7f7f7f7f7f ,
+                        0x7f7fbfbfbfbfbfbfbfbfbf000000ffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffff7f7f7f7f7f7f0000 ,
+                        0x007f7f7f7f7f7fbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f7f7f0000007f7f7f7f ,
+                        0x7f7f7f7f7fbfbfbf0000007f7f7f0000007f7f7fbfbfbfbfbfbf7f7f7f7f7f7f ,
+                        0x7f7f7fbfbfbfbfbfbf7f7f7f7f7f7f7f7f7fbfbfbfbfbfbfffffff7f7f7f7f7f ,
+                        0x7f0000000000000000000000000000000000000000000000007f7f7f0000007f ,
+                        0x7f7f7f7f7f7f7f7f000000ffffffbfbfbf0000007f7f7fbfbfbfbfbfbf7f7f7f ,
+                        0x7f7f7fbfbfbfbfbfbfbfbfbf7f7f7f7f7f7fbfbfbfbfbfbfbfbfbfffffff7f7f ,
+                        0x7f0000007f7f7fbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f7f7f0000007f7f7f00 ,
+                        0x00007f7f7f7f7f7f000000ffffffbfbfbfbfbfbf000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f7f7f7f7f7f00000000 ,
+                        0x0000bfbfbfbfbfbf000000ffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfffffffffffffffffffbfbfbf7f7f7f7f7f7f7f7f7f00 ,
+                        0x0000bfbfbfbfbfbf000000ffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbf000000000000000000bfbfbfbfbfbf7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f000000bfbfbf000000ffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfffffffffffffffffffbfbfbf7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f000000bfbfbf000000ffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbf0000ff0000ff000000bfbfbfbfbfbf7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f000000bfbfbf000000ffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f000000bfbfbf000000ffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffff7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f000000bfbfbfbfbfbf000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfffffff7f7f7f7f7f7f7f ,
+                        0x7f7f000000bfbfbfbfbfbfbfbfbf000000bfbfbfbfbfbf7f7f7f000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000bfbfbfbfbfbfffffff7f7f7f7f ,
+                        0x7f7f000000bfbfbfbfbfbfbfbfbfbfbfbf000000bfbfbfbfbfbf7f7f7f000000 ,
+                        0x000000ffffffffffffffffffffffff0000007f7f7fffffff7f7f7f0000000000 ,
+                        0x00ffffffffffffbfbfbf000000000000000000000000bfbfbfbfbfbfffffff7f ,
+                        0x7f7f000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000bfbfbfbfbfbf7f7f7f ,
+                        0x0000007f7f7fffffffffffffffffff7f7f7f000000ffffff0000000000007f7f ,
+                        0x7fffffffffffffffffff0000007f7f7fbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f ,
+                        0x7f7f000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000000000000000 ,
+                        0x000000000000ffffffffffffffffffffffff0000007f7f7f000000000000ffff ,
+                        0xffffffffffffffffffff7f7f7f00000000000000000000000000000000000000 ,
+                        0x0000000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbf0000007f7f7fffffffffffffffffff7f7f7f0000000000007f7f7fffff ,
+                        0xffffffffffffffffffffffffff000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbf000000ffffffffffffffffff7f7f7f000000000000ffffffffff ,
+                        0xffffffffffffffffffffffffff7f7f7f000000bfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbf0000007f7f7fffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffff000000bfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbf000000bfbfbfffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffbfbfbf000000bfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbf0000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000bfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbf
+                    End
+                    FontName ="System"
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Imprimer"
+                    Picture ="PRINT4.ICO"
+
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    TextFontFamily =2
+                    Left =10710
+                    Top =45
+                    Width =591
+                    Height =591
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =1
+                    Name ="CmdFermer"
+                    Caption ="Fermer Le Formulaire"
+                    StatusBarText ="Fermer Le Formulaire"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadadadadadadadaadadadadadadadaddadadadadadadada ,
+                        0xadadadadadadadaddadadadadadadadaadad00adad00adaddadad00ad00adada ,
+                        0xadadad0000adadaddadadad00adadadaadadad0000adadaddadad00ad00adada ,
+                        0xadad00adad00adaddadadadadadadadaadadadadadadadaddadadadadadadada ,
+                        0xadadadadadadadad
+                    End
+                    FontName ="System"
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Fermer Le Formulaire"
+
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =1470
+                    Top =45
+                    Width =666
+                    Height =591
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =2
+                    ForeColor =13107
+                    Name ="CmdAfficherSocietes"
+                    Caption ="Societes"
+                    StatusBarText ="Societes"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000020000000200000000100200000000000001000000000000000000000 ,
+                        0x0000000000000000c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d4004a3f4d006c6761005754520057545200 ,
+                        0x524a4c00524a4c005a54560054504b00544d4b00544d4b0055534d0055534d00 ,
+                        0x50464b0050464b00524a4c0022192b00c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d40004030b005e56580057545200968e83006d695c00706e6100 ,
+                        0x6d6c5d006f6e610065645700524849003b353d003b353d003b353d0052484900 ,
+                        0x69665f0065645700716e630031293a00c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d4005c5558007f7e6c00544d4b008f8882006d6661006d685d00 ,
+                        0x66675b0065645700bbb0b500cfccd300bdb5b900c6c1c300cac6cb0037303b00 ,
+                        0x69665f0069665f006e6a5d002e273800c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0x0000060056534f007f7e6c007c7c6e004f454a008f8882006d6661006d666100 ,
+                        0x7372660066665900bbb3ba0055534d00625e5500615b550087837e0055534d00 ,
+                        0x69665f0067665c006d6e5d00291e2f00c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0x55534d007e766900727368007c7d6c0050464b00958d83006c6761006f6e6100 ,
+                        0x706e61006e6e5f0067665c006d6761006d6e5d0069665f006666590065645700 ,
+                        0x6d675e006d685d006d6e5d002f293900c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400271c2e00 ,
+                        0x7d7d7400736f650079726d007a746b004a3f4d00948c83006d6661006d675e00 ,
+                        0x6f6e61006d685d007e7569007e7469007e7669007b756b007f786a00736e6500 ,
+                        0x66675b0069665f00736f65002e273800c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4001c172400 ,
+                        0x7c7c6e00736f6500727368007b746a004a3f4d00948b8300736f650072726900 ,
+                        0x737065003b353d00f5f4f800e3e2e900e4e3ea00e6e5ec00d9d8de007f786a00 ,
+                        0x67665c006b676000746e65002e273800c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4001c172400 ,
+                        0x7f786a0077706e0073706500746e64004d424b00958d83006e6e5f00716e6300 ,
+                        0x7e7469002a203000fefeff00fefeff00fefeff00fefeff00f8f6f9007e756900 ,
+                        0x69665f00706e61006d6e5d002f293900c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4001c172400 ,
+                        0x7e766900746e640072726900736f65004d424b00958d83006f6e610073706500 ,
+                        0x79736d00362e3b00706f6e00706d7000706d7000706d7000706f6e006d6c5d00 ,
+                        0x6e6e5f006d666100746e6400291e2f00c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4001c172400 ,
+                        0x7b756b006f6e61006d666100727368004a3f4d008f888200716e63006c676100 ,
+                        0x6e6a5d007372660069665f006d6c5d0067665c006d675e0069665f0069665f00 ,
+                        0x6d675e0066675b006d6761002f293900c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4001c172400 ,
+                        0x72726a00716e63006d685d0071716b004a3f4d00bab0a500aba49900aea69c00 ,
+                        0xa9a29600aba49900aba49900aba49900a6a09300a9a29600aba49900aba49900 ,
+                        0xa6a09300a6a09300b7aca100473c4b00c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d40019142100 ,
+                        0x7373670069665f006f6e610073736700251a2c002f2939002a2030002b223100 ,
+                        0x2d2535002b223100362e3b0033293b0037303b0037303b0037303b0039333c00 ,
+                        0x3b353d003b353d004b404d001c172400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4001b162300 ,
+                        0x746e65006e6e5f006d6761006e6a5d00544d4b00a09a8d007c7d6c007c7d6c00 ,
+                        0x7c7c7200807b6a007b746a007c7d6c007f786a007f786a00737367007b756b00 ,
+                        0x7e746900737367007b756b002f293900c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400130d1900 ,
+                        0x7273680066675b006d6661006f6e61004a3f4d009389840076706f0079736d00 ,
+                        0x73706500736e6400958d8300756f7000524a4c00524a4c005e56580022192b00 ,
+                        0x79736c00746e640076706f0033293b00c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4001b162300 ,
+                        0x6d67610066675b006d6661006f6e61004a3f4d009a94870072726a007f786a00 ,
+                        0x756f70006d675e00e2e2e900a49d9000b0a89e00b0a89e00cac6cb004c414d00 ,
+                        0x7b746a007370650076706f0033293b00c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d40016111d00 ,
+                        0x6d6c5d0069665f00656457006d6c5d004d424b00979086007e7569007b756b00 ,
+                        0x7b756b0079726d006d6c5d006e6e5f00746e6500746e64006d6e5d0073726600 ,
+                        0x7370650077706e007c7d6c002f293900c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d40018131f00 ,
+                        0x6d6c5d0069665f0066665900666659004d424b00979086007b746a007f786a00 ,
+                        0x7b746a007b756b00746e64006d6e5d006d6761006d695c006d675e00746e6500 ,
+                        0x736f6500736f65007b756b002e273800c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400130d1900 ,
+                        0x716e630064625600625e55006d675e004a3f4d00999387007a746c007c756b00 ,
+                        0x7c7c720052484900cdc9ce00c7c2c500c5c0bd00c5c0bd00c7c2c5007f7e7700 ,
+                        0x726e70007372660079736d00342b3b00c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400130d1900 ,
+                        0x6d695c00635f5500635f5500666659004a3f4d00989287007e7569007f786a00 ,
+                        0x7c7c72002b223100fefeff00fefeff00fefeff00fefeff00ecebf1007c7c7200 ,
+                        0x746e6400737266007a746b00342b3b00c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4000b061400 ,
+                        0x6d685d00635f5500635f5500656457003f3744009d988b0079736d007c7c6e00 ,
+                        0x7f786a0039333c00c8c3c800bbb3ba00bbb3ba00bbb3ba00bbb1b700807d6b00 ,
+                        0x78716e0079726d007f7e6c002e273800c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4000b061400 ,
+                        0x66665900635f5500635f5500656457004c414d009b9588007a746c007c7c6e00 ,
+                        0x7e7669007370650054504b0054504b005248490052484900615b550073736700 ,
+                        0x78716e0078716e007c7d6c0037303b00c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4000e091600 ,
+                        0x69665f00615b5500635f55005f5857004a3f4d00b0a89e00968e840098908600 ,
+                        0x989187009c96890099938700999387009c9689009c968900988f850097908600 ,
+                        0x968e8300918883009b958800342b3b00c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4000b061400 ,
+                        0x69665f00575452005e56580066675b00000006003f3744003f3744003f374400 ,
+                        0x3f37440042394700473c4b00473c4b004a3f4d004d424b004c414d004c414d00 ,
+                        0x50464b0057545200746e640033293b00c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d40008051200 ,
+                        0x66665900635f55005248490055534d00b7aca100c5bcb100c5bbaf00c5bbaf00 ,
+                        0xc5bbaf00c5bbaf00c3b9af00c5bbaf00bcb0ae00baafa600c2b8af00c2b8af00 ,
+                        0xa09a8d007c7c720000000600c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4000b061400 ,
+                        0x56534f00544d4b00948a8300c0b6b400c5bbaf00c5bbaf00bbafa800c2b8af00 ,
+                        0xbab0a500c2b8af00bcb0ae00bab0a500bbafa800baafa600aba499006d666100 ,
+                        0x2f293900c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d4000e091600 ,
+                        0x5e56580099938700a09a8d00968e84009389840093898400988f8500968e8400 ,
+                        0x979086009891870093898400938a84009188830078716e000b061400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400c8d0d400 ,
+                        0xc8d0d400c8d0d400
+                    End
+                    FontName ="Arial"
+                    ControlTipText ="Societes"
+                    Picture ="SOCIETE.ICO"
+
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =765
+                    Top =45
+                    Width =651
+                    Height =591
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =3
+                    ForeColor =13107
+                    Name ="CmdAfficherContacts"
+                    Caption ="Contacts"
+                    StatusBarText ="Contacts"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000020000000200000000100180000000000000c00000000000000000000 ,
+                        0x0000000000000000bfbfbfbfbfbfbfbfbf000000bfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbf000000000000000000000000bfbfbfffffffbfbfbfffffffbfbfbfffff ,
+                        0xffbfbfbfffffff000000ffffffbfbfbfffffffbfbfbfffffffbfbfbfffffffbf ,
+                        0xbfbf000000bfbfbfbfbfbfbfbfbfbfbfbf000000bfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xffffffbfbfbf000000000000000000ffffffbfbfbfffffffbfbfbfffffffbfbf ,
+                        0xbfffffffbfbfbfffffff000000ffffffbfbfbfffffffbfbfbfffffffbfbfbfff ,
+                        0xffff000000bfbfbfbfbfbfbfbfbfbfbfbf000000bfbfbfbfbfbfbfbfbfffffff ,
+                        0xbfbfbfffffff000000000000000000000000ffffffbfbfbfffffffbfbfbfffff ,
+                        0xffbfbfbfffffffbfbfbfffffff000000ffffffbfbfbfffffffbfbfbfffffffbf ,
+                        0xbfbf000000bfbfbfbfbfbfbfbfbfbfbfbf000000bfbfbfbfbfbfffffffbfbfbf ,
+                        0xffffffbfbfbfffffff000000000000000000000000000000bfbfbfffffffbfbf ,
+                        0xbfffffffbfbfbfffffffbfbfbfffffff000000ffffffbfbfbfffffffbfbfbf00 ,
+                        0x0000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000bfbfbfffffffbfbfbfffffff ,
+                        0xbfbfbfffffffbfbfbf000000000000000000000000ffffff000000bfbfbfffff ,
+                        0xffbfbfbfffffffbfbfbfffffffbfbfbfffffff000000000000000000000000bf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000ffffffbfbfbfffffffbfbfbf ,
+                        0xffffffbfbfbfffffff000000000000000000000000bfbfbfffffff000000bfbf ,
+                        0xbfffffffbfbfbfffffffbfbfbfffffffbfbfbfffffffbfbfbf000000bfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000bfbfbfffffffbfbfbfffffff ,
+                        0xbfbfbfffffff000000000000000000000000bfbfbfffffffbfbfbfffffff0000 ,
+                        0x00bfbfbfffffffbfbfbfffffffbfbfbfffffffbfbfbf000000bfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000ffffffbfbfbfffffffbfbfbf ,
+                        0xffffff000000ffffffbfbfbfbfbfbfbfbfbf000000000000ffffffbfbfbfffff ,
+                        0xff000000bfbfbfffffffbfbfbfffffffbfbfbf000000bfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000ffffffffffffbfbfbfffffff ,
+                        0x000000ffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000000000bfbf ,
+                        0xbfffffff000000bfbfbfffffffbfbfbf000000bfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000ffffffbfbfbfffffffbfbfbf ,
+                        0x000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf0000 ,
+                        0x00bfbfbfffffff000000bfbfbf000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000ffffffbfbfbfffffff ,
+                        0x000000bfbfbf000000000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbf000000bfbfbfffffff000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000ffffffffffffbfbfbf ,
+                        0x000000000000bfbfbfbfbfbfbfbfbf000000000000bfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbf000000bfbfbf000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000ffffffffffff ,
+                        0x000000bfbfbfbfbfbfbfbfbf000000000000000000000000bfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbf000000000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000000000 ,
+                        0x000000000000bfbfbf000000000000000000000000000000000000bfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbf000000000000000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0x000000ffffffbfbfbf000000000000000000000000bfbfbf000000000000bfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbf000000000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0x000000ffffffbfbfbf000000000000000000bfbfbfbfbfbfbfbfbf0000000000 ,
+                        0x00bfbfbfbfbfbfbfbfbfbfbfbf000000000000bfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0x000000000000bfbfbf000000000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbf0000 ,
+                        0x00000000bfbfbfbfbfbfbfbfbf000000000000bfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000 ,
+                        0x000000000000000000000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbf000000000000ffffffffffff000000000000000000bfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000000000 ,
+                        0x000000000000000000bfbfbfbfbfbfbfbfbfbfbfbfffffffbfbfbfbfbfbfbfbf ,
+                        0xbf000000000000000000000000000000000000000000bfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000000000 ,
+                        0x000000000000ffffffbfbfbfbfbfbfbfbfbfffffffbfbfbfffffffbfbfbfbfbf ,
+                        0xbf0000000000007f7f7f000000000000000000000000000000bfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000000000 ,
+                        0x000000ffffffbfbfbfffffffbfbfbfffffffbfbfbfffffff0000000000000000 ,
+                        0x00bfbfbf0000000000007f7f7f000000000000000000000000bfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000 ,
+                        0x000000ffffffffffffbfbfbfffffffbfbfbfffffff0000000000000000000000 ,
+                        0x00000000bfbfbf0000000000007f7f7f000000000000000000bfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0x000000ffffffbfbfbfffffffbfbfbfffffff0000000000007f7f7f7f7f7f0000 ,
+                        0x00000000000000bfbfbf0000000000007f7f7f000000000000bfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0x000000ffffffffffffbfbfbfffffff0000000000000000007f7f7f7f7f7f7f7f ,
+                        0x7f000000000000000000bfbfbf0000000000007f7f7f000000bfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0x000000000000ffffffffffff0000000000000000007f7f7f0000007f7f7f7f7f ,
+                        0x7f7f7f7f000000000000000000bfbfbf000000000000000000bfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0x000000bfbfbf0000000000000000000000000000000000007f7f7f0000007f7f ,
+                        0x7f7f7f7f7f7f7f000000000000000000bfbfbf000000000000bfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbf000000bfbfbf0000000000000000000000000000000000007f7f7f0000 ,
+                        0x007f7f7f7f7f7f7f7f7f000000000000000000000000bfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbf000000bfbfbf0000000000000000000000000000000000007f7f ,
+                        0x7f0000007f7f7f7f7f7f7f7f7f000000000000000000bfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbf000000bfbfbf0000000000000000000000000000000000 ,
+                        0x007f7f7f0000007f7f7f000000000000000000bfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbf000000bfbfbf0000000000000000000000000000 ,
+                        0x000000007f7f7f000000000000000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000bfbfbf0000000000000000000000 ,
+                        0x00000000000000000000000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f7f7f000000bfbfbf000000bfbf ,
+                        0xbf000000000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbf
+                    End
+                    FontName ="Arial"
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Contacts"
+                    Picture ="Man2.ico"
+
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =2520
+                    Top =45
+                    Height =591
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =4
+                    ForeColor =13107
+                    Name ="CmdAfficherCall1"
+                    Caption ="CALL CONCURRENCE"
+                    StatusBarText ="CALL 1"
+                    OnClick ="[Event Procedure]"
+                    FontName ="Arial"
+                    ControlTipText ="CALL 1"
+
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =4230
+                    Top =45
+                    Height =591
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =5
+                    ForeColor =13107
+                    Name ="CmdAfficherCall2"
+                    Caption ="CALL SHOWROOM"
+                    StatusBarText ="CALL 2"
+                    OnClick ="[Event Procedure]"
+                    FontName ="Arial"
+                    ControlTipText ="CALL 2"
+
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "FrmSaisieCall3.cls"

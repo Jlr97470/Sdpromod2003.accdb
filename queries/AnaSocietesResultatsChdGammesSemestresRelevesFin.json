@@ -1,0 +1,105 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "AnaSocietesResultatsChdGammesSemestresRelevesFin"
+  },
+  "Items": {
+    "QueryType": 16,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total Des Remontees De Chaudieres Par Gammes Par Semestres A Date Releves"
+      }
+    },
+    "Columns": {
+      "PIVOT": {
+        "ColumnWidth": 1710,
+        "AggregateType": -1
+      },
+      "SocResNbChd2003S1RelevesFin": {
+        "ColumnOrder": 18,
+        "ColumnWidth": 3060,
+        "AggregateType": -1
+      },
+      "SocResNbChd2003S2RelevesFin": {
+        "ColumnOrder": 21,
+        "ColumnWidth": 3060,
+        "AggregateType": -1
+      },
+      "SocResNbChd2004S1RelevesFin": {
+        "ColumnOrder": 24,
+        "ColumnWidth": 3060,
+        "AggregateType": -1
+      },
+      "SocResNbChd2004S2RelevesFin": {
+        "ColumnOrder": 27,
+        "ColumnWidth": 3060,
+        "AggregateType": -1
+      },
+      "SocResNbISO2003S1RelevesFin": {
+        "ColumnOrder": 19,
+        "ColumnWidth": 3045,
+        "AggregateType": -1
+      },
+      "SocResNbISO2003S2RelevesFin": {
+        "ColumnOrder": 22,
+        "ColumnWidth": 3045,
+        "AggregateType": -1
+      },
+      "SocResNbISO2004S1RelevesFin": {
+        "ColumnOrder": 25,
+        "ColumnWidth": 3045,
+        "AggregateType": -1
+      },
+      "SocResNbISO2004S2RelevesFin": {
+        "ColumnWidth": 3045,
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2003S1RelevesFin": {
+        "ColumnOrder": 20,
+        "ColumnWidth": 3390,
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2003S2RelevesFin": {
+        "ColumnOrder": 23,
+        "ColumnWidth": 3390,
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2004S1RelevesFin": {
+        "ColumnOrder": 26,
+        "ColumnWidth": 3390,
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2004S2RelevesFin": {
+        "ColumnWidth": 3390,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -6,
+        "top": -25,
+        "right": 1282,
+        "bottom": 860
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1207,
+        "bottom": 294
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2607,
+      "Tables": [
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total Des Remontees De Chaudieres Par Gammes Par Semestres A Date Releves"
+      }
+    }
+  }
+}

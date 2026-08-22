@@ -1,0 +1,15 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "SFrmFicheSocietesResultatsChaudieresSemestres Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Sous Formulaire De La Fiche Societes Resultats Chaudieres Par Semestres"
+      }
+    },
+    "Hidden": true
+  }
+}

@@ -1,0 +1,183 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DefaultView =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =6255
+    ItemSuffix =11
+    Left =5340
+    Top =8325
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x9806f5d6edace240
+    End
+    RecordSource ="SELECT SelEtatRelevesSocietesSoldesISOExercices.* FROM SelEtatRelevesSocietesSol"
+        "desISOExercices; "
+    DatasheetFontName ="Arial"
+    Begin
+        Begin Label
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =9
+            FontWeight =700
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            Width =1701
+        End
+        Begin Image
+            OldBorderStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            OldBorderStyle =0
+            TextFontFamily =18
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Times New Roman"
+        End
+        Begin ListBox
+            TextFontFamily =18
+            OldBorderStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Times New Roman"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            TextFontFamily =18
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Times New Roman"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="MvtSocNum"
+        End
+        Begin BreakLevel
+            ControlSource ="ExeLibelle"
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            ForceNewPage =1
+            Height =300
+            Name ="EntêteGroupe0"
+            Begin
+                Begin Label
+                    Width =2835
+                    Height =300
+                    FontSize =10
+                    Name ="EtiRelevesISOIntitule"
+                    Caption ="Situation Bonus Animation ISO :"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    Left =2835
+                    Width =1695
+                    Height =300
+                    FontSize =10
+                    BackColor =12632256
+                    Name ="EtiMvtISOSem1"
+                    Caption ="1er Semestre"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    Left =4530
+                    Width =1725
+                    Height =300
+                    FontSize =10
+                    BackColor =12632256
+                    Name ="EtiMvtISOSem2"
+                    Caption ="2nd Semestre"
+                    Tag ="DetachedLabel"
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =270
+            Name ="Détail"
+            Begin
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    Width =2835
+                    Height =270
+                    ColumnWidth =2655
+                    Name ="TxtExeLibelle"
+                    ControlSource ="ExeLibelle"
+                    StatusBarText ="Exercice Exercice (Année)"
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    Left =2835
+                    Width =1695
+                    Height =270
+                    TabIndex =1
+                    Name ="MvtISOSem1"
+                    ControlSource ="MvtISOSem1"
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    Left =4530
+                    Width =1725
+                    Height =270
+                    TabIndex =2
+                    Name ="MvtISOSem2"
+                    ControlSource ="MvtISOSem2"
+                End
+            End
+        End
+    End
+End

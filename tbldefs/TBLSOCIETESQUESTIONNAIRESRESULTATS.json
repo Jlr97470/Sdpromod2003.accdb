@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLSOCIETESQUESTIONNAIRESRESULTATS",
+    "Connect": ";DATABASE=rel:SdProFich2003.accdb",
+    "SourceTableName": "TBLSOCIETESQUESTIONNAIRESRESULTATS",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[SocQstResSocNum], [SocQstResSocQstTypIDNum]"
+  }
+}

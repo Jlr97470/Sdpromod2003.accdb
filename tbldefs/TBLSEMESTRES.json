@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLSEMESTRES",
+    "Connect": ";DATABASE=rel:SdProFich2003.accdb",
+    "SourceTableName": "TBLSEMESTRES",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[SemExeNum], [SemExeSemNum]"
+  }
+}

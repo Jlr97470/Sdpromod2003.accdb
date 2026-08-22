@@ -1,0 +1,59 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelCadeauxArticles"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Cadeaux, Articles\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1258,
+        "bottom": 635
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1211,
+        "bottom": 405
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+        {
+          "Name": "TBLCADEAUXARTICLES",
+          "Alias": "",
+          "Left": 199,
+          "Top": 6,
+          "Right": 339,
+          "Bottom": 128,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCADEAUXACHATS",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 169,
+          "Bottom": 188,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Cadeaux, Articles\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    }
+  }
+}

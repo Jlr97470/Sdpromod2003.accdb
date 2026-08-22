@@ -1,0 +1,555 @@
+﻿Version =196611
+ColumnsShown =3
+Begin
+    MacroName ="Saisie References Cadeaux"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Saisie Des Reférences Articles"
+    Argument ="FrmSaisieCadeauxArticles"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Saisie Achats Cadeaux"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Saisie Des Achats Cadeaux"
+    Argument ="FrmSaisieCadeauxAchats"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Saisie References Chaudieres"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Saisie Des Reférences Chaudieres"
+    Argument ="FrmSaisieChaudieresArticles"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Saisie Remontees Chaudieres"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Saisie Des Remontées De Chaudiéres"
+    Argument ="FrmSaisieChaudieresRemontees"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Saisie Bonus Animation"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Saisie Des Bonus Animation"
+    Argument ="FrmSaisieBonusAnimation"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Saisie Regularisation Cheques"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Saisie Des Regularisation Et Cheques"
+    Argument ="FrmSaisieRegularisationCheques"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Saisie Questionnaires Types"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Saisie Des Questionnaires Types"
+    Argument ="FrmSaisieQuestionnairesTypes"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Liste Cadeaux Achats"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire Des Listes Achats Cadeaux"
+    Argument ="FrmLstCadeauxAchats"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Liste Chaudieres Remontees"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire Des Listes Des Remontées De Chaudiéres"
+    Argument ="FrmLstChaudieresRemontees"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Liste Exercices"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire Des Listes Des Exercices"
+    Argument ="FrmLstExercices"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Liste Semestres"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire Des Listes Des Semestres"
+    Argument ="FrmLstSemestres"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Liste Natures Mouvements"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire Des Listes Des Natures Mouvements"
+    Argument ="FrmLstMouvementsNatures"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Liste Villes"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire Des Listes Des Villes"
+    Argument ="FrmLstVilles"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Liste Departements"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire Des Listes Des Departements"
+    Argument ="FrmLstDepartements"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Liste Civilites"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire Des Listes Des Civilites"
+    Argument ="FrmLstCivilites"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Liste Fonctions Contacts"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire Des Listes Des Fonctions Des Contacts"
+    Argument ="FrmLstContactsFonctions"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Liste Types Societes"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire Des Listes Des Types De Societes"
+    Argument ="FrmLstSocietesTypes"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Liste Machines"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire Des Listes Des Machines"
+    Argument ="FrmLstMachines"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="2"
+    Argument ="0"
+End
+Begin
+    MacroName ="Fiche Contacts"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De La Fiche Contacts"
+    Argument ="FrmFicheContacts"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Fiche Societes"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De La Fiche Societes"
+    Argument ="FrmFicheSocietes"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Fiche Questionnaires Types"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De La Fiche Questionnaires Types"
+    Argument ="FrmFicheQuestionnairesTypes"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Recherche Simple"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Recherche Simple"
+    Argument ="FrmRecherche"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Recherche Multi"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Recherche Multi "
+    Argument ="FrmRechercheMulti"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Recherche Societes"
+    Action ="RunCode"
+    Comment ="Ouvre Le Formulaire De Recherche Simple Sur Onglet Societes"
+    Argument ="OuvreRecherches (1) "
+End
+Begin
+    MacroName ="Recherche Contacts"
+    Action ="RunCode"
+    Comment ="Ouvre Le Formulaire De Recherche Simple Sur Onglet Contacts"
+    Argument ="OuvreRecherches (2) "
+End
+Begin
+    MacroName ="Recherche Cadeaux Achats"
+    Action ="RunCode"
+    Comment ="Ouvre Le Formulaire De Recherche Simple Sur Onglet Cadeaux"
+    Argument ="OuvreRecherches (3) "
+End
+Begin
+    MacroName ="Recherche Chaudieres Remontees"
+    Action ="RunCode"
+    Comment ="Ouvre Le Formulaire De Recherche Simple Sur Onglet Chaudieres"
+    Argument ="OuvreRecherches (4) "
+End
+Begin
+    MacroName ="Selection Contacts"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Selection Des Contacts"
+    Argument ="FrmLstContacts"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Selection Societes"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Selection Des Societes"
+    Argument ="FrmLstSocietes"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Selection Cadeaux Achats"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Selection Des Achats De Cadeaux"
+    Argument ="FrmLstCadeauxAchats"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Selection Chaudieres Remontees"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Selection Des Remontees De Chaudieres"
+    Argument ="FrmLstChaudieresRemontees"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Gestion Parametres"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Gestion Des Parametres Local (Base Frontal)"
+    Argument ="FrmGestionParametres"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Gestion Parametres Generaux"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Gestion Des Parametres Global (Base Dorsal)"
+    Argument ="FrmGestionParametresGeneraux"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Gestion Messages"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Gestion Des Messages"
+    Argument ="FrmGestionMessages"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Gestion Fichiers"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Gestion Des Fichiers"
+    Argument ="FrmGestionFichiers"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Mise A Jour Mouvements Chaudieres"
+    Action ="RunCode"
+    Comment ="Execute La Fonction De Generations Des Mouvements De Chaudieres"
+    Argument ="AjouteMouvementsChaudieres ()"
+End
+Begin
+    MacroName ="Mise A Jour Mouvements Cadeaux"
+    Action ="RunCode"
+    Comment ="Execute La Fonction De Generations Des Mouvements De Cadeaux"
+    Argument ="AjouteMouvementsCadeaux()"
+End
+Begin
+    MacroName ="Extraction Simple"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Extraction Simple"
+    Argument ="FrmExtraction"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Extraction Multi"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Extraction Multi"
+    Argument ="FrmExtractionMulti"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Extraction Excel Achats Cadeaux"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel Achats Cadeaux "
+        "Vers Excel"
+    Argument ="ExporteExcelRequete (\"SelExtSocietesSTAContactsTAInsCadeauxAchats\") "
+End
+Begin
+    MacroName ="Extraction Excel Remontees Chaudieres"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel Remontees Chaud"
+        "ieres Vers Excel"
+    Argument ="ExporteExcelRequete (\"SelExtSocietesSTAContactsTAInsChaudieresRemontees\") "
+End
+Begin
+    MacroName ="Extraction Excel Societes STA Adherents"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel Societes STA Ad"
+        "herents Vers Excel"
+    Argument ="ExporteExcelRequete (\"SelExtSocietesSTAAdhConTAIns\")"
+End
+Begin
+    MacroName ="Extraction Excel Societes STA Adh Resultats Call 1"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel Societes STA Ad"
+        "herents Resultats Call 1 Vers Excel"
+    Argument ="ExporteExcelRequete (\"SelExtSocietesSTAAdhConTAInsResultatsCall1\")"
+End
+Begin
+    MacroName ="Extraction Excel Societes STA Adh Resultats Call 2"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel Societes STA Ad"
+        "herents Resultats Call 2 Vers Excel"
+    Argument ="ExporteExcelRequete (\"SelExtSocietesSTAAdhConTAInsResultatsCall2\")"
+End
+Begin
+    MacroName ="Extraction Excel Societes STA Adh Resultats Call 3"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel Societes STA Ad"
+        "herents Resultats Call 3 Vers Excel"
+    Argument ="ExporteExcelRequete (\"SelExtSocietesSTAAdhConTAInsResultatsCall3\")"
+End
+Begin
+    MacroName ="Extraction Excel Societes STA Adh Resultats Generaux"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel Societes STA Ad"
+        "herents Resultats Generaux Vers Excel"
+    Argument ="ExporteExcelRequete (\"SelExtSocDRConATCSocSTAAdhConTAInsResISOSoldesDetaillerBi"
+        "s\")"
+End
+Begin
+    MacroName ="Extraction Excel Societes STA Adh Resultats Detailler"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel Societes STA Ad"
+        "herents Resultats Detailler Vers Excel"
+    Argument ="ExporteExcelRequete (\"SelExtSocDRConATCSocSTAAdhConTAInsResultatsDetailler\")"
+End
+Begin
+    MacroName ="Extraction Excel Societes STA Adh Resultats Detailler SPLIT"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel Societes STA Ad"
+        "herents Resultats Detailler SPLIT Vers Excel"
+    Argument ="ExporteExcelRequete (\"SelExtSocDRConATCSocSTAAdhConTAInsResultatsDetSPLIT\",\"R"
+        "ESULTATSMENSUELSSPL.XLS\")"
+End
+Begin
+    MacroName ="Extraction Excel Societes STA Adh Chaudieres"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel Societes STA Ad"
+        "herents Chaudieres Vers Excel"
+    Argument ="ExporteExcelRequete (\"SelExtSocDRConATCSocSTAAdhConTAInsResSemestresDetaillerBi"
+        "s\") "
+End
+Begin
+    MacroName ="Extraction Excel Societes STA Adh Chaudieres SPLIT"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel Societes STA Ad"
+        "herents Chaudieres SPLIT Vers Excel"
+    Argument ="ExporteExcelRequete (\"SelExtSocDRConATCSocSTAAdhConTAInsResSemestresDetSPLITBis"
+        "\") "
+End
+Begin
+    MacroName ="Extraction Excel ATC Societes STA Adherents"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel ATC Societes ST"
+        "A Adherents Vers Excel"
+    Argument ="ExporteExcelRequete (\"SelExtSocDRConATCSocSTAAdhConTAIns\")"
+End
+Begin
+    MacroName ="Extraction Excel ATC Societes STA Adh Resultats Generaux"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel ATC Societes ST"
+        "A Adherents Resultats Generaux Vers Excel"
+    Argument ="ExporteExcelATCResultats () "
+End
+Begin
+    MacroName ="Extraction Excel ATC Societes STA Adh Chaudieres"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel ATC Societes ST"
+        "A Adherents Chaudieres Vers Excel"
+    Argument ="ExporteExcelATCChaudieres () "
+End
+Begin
+    MacroName ="Extraction Excel ATC Societes STA Adh Chaudieres SPLIT"
+    Action ="RunCode"
+    Comment ="Execute La Fonction D'Exportation De La Requete Extraction Excel ATC Societes ST"
+        "A Adherents Chaudieres SPLIT Vers Excel"
+    Argument ="ExporteExcelATCChaudieresSPLIT () "
+End
+Begin
+    MacroName ="Fusion Simple"
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire De Fusion Simple"
+    Argument ="FrmFusion"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End
+Begin
+    MacroName ="Fusion Word Etiquette DR Inscrit"
+    Action ="RunCode"
+    Comment ="Execute La Fonction De Fusion Des Etiquettes Des DR Inscrit"
+    Argument ="FusionWordRequete (\"SelSocietesDRContactsDRATCInscrit\",\"2004 FUSION ETIQUETTE"
+        "S DR.DOC\")"
+End
+Begin
+    MacroName ="Fusion Word Etiquette ATC Inscrit"
+    Action ="RunCode"
+    Comment ="Execute La Fonction De Fusion Des Etiquettes Des ATC Inscrit"
+    Argument ="FusionWordRequete (\"SelSocietesDRContactsATCInscrit\",\"2004 FUSION ETIQUETTES "
+        "ATC.DOC\")"
+End
+Begin
+    MacroName ="Fusion Word Etiquette STA Adh"
+    Action ="RunCode"
+    Comment ="Execute La Fonction De Fusion Des Etiquettes Des STA Adherents"
+    Argument ="FusionWordRequete (\"SelSocDRConATCSocSTAAdhConTAIns\",\"2004 FUSION ETIQUETTES "
+        "STA ADH.DOC\")"
+End
+Begin
+    MacroName ="Fusion Word Lettre De Bienvenue STA Adh"
+    Action ="RunCode"
+    Comment ="Execute La Fonction De Fusion De La Lettre De Bienvenue Des STA Adherents"
+    Argument ="FusionWordNouveauxAdherents (\"2004 FUSION LETTRE DE BIENVENUE.DOC\")"
+End
+Begin
+    MacroName ="Edition Soldes Releves STA Adh"
+    Action ="OpenReport"
+    Comment ="Ouvre L'Etat D'Edition Des Soldes Des STA Adherents"
+    Argument ="EtaRelevesSocietesSoldesSTAAdhConTAIns"
+    Argument ="2"
+End

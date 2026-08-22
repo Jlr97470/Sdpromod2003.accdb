@@ -1,0 +1,443 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DefaultView =0
+    DateGrouping =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =9045
+    ItemSuffix =58
+    Left =3855
+    Top =5805
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x1d3948645599e240
+    End
+    RecordSource ="SELECT SelEtatRelevesSocietesSoldesMouvements.* FROM SelEtatRelevesSocietesSolde"
+        "sMouvements; "
+    DatasheetFontName ="Arial"
+    Begin
+        Begin Label
+            BackStyle =0
+            TextAlign =1
+            FontSize =10
+            FontWeight =700
+            FontName ="Arial"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =2
+            Width =850
+            Height =850
+            BorderColor =12632256
+        End
+        Begin Line
+            Width =1701
+        End
+        Begin Image
+            OldBorderStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            OldBorderStyle =0
+            TextFontFamily =18
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            FontName ="Times New Roman"
+        End
+        Begin ListBox
+            TextFontFamily =18
+            OldBorderStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =11
+            FontName ="Times New Roman"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            TextFontFamily =18
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            FontName ="Times New Roman"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupFooter = NotDefault
+            ControlSource ="MvtSocNum"
+        End
+        Begin BreakLevel
+            ControlSource ="MvtNatCode"
+        End
+        Begin BreakLevel
+            ControlSource ="MvtMvtDate"
+        End
+        Begin BreakLevel
+            ControlSource ="MaxDeMvtNum"
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            ForceNewPage =1
+            Height =1080
+            Name ="EntêteGroupe"
+            Begin
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =0
+                    Top =345
+                    Width =984
+                    Height =735
+                    FontWeight =900
+                    BackColor =12632256
+                    Name ="EtiMvtDate"
+                    Caption ="Date"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =0
+                    Left =990
+                    Top =345
+                    Width =1263
+                    Height =735
+                    FontWeight =900
+                    BackColor =12632256
+                    Name ="EtiMvtNatCode"
+                    Caption ="Nature"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    Left =2250
+                    Top =345
+                    Width =3990
+                    Height =735
+                    FontWeight =900
+                    BackColor =12632256
+                    Name ="EtiMvtIntitule"
+                    Caption ="Intitulé"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    Left =6240
+                    Top =345
+                    Width =921
+                    Height =735
+                    FontWeight =900
+                    BackColor =12632256
+                    Name ="EtiMvtDebit2003"
+                    Caption ="Debit"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    Left =7155
+                    Top =345
+                    Width =1881
+                    Height =270
+                    FontWeight =900
+                    BackColor =12632256
+                    Name ="EtiCredit2003"
+                    Caption ="Credit"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    Left =8212
+                    Top =615
+                    Width =825
+                    Height =465
+                    FontSize =8
+                    FontWeight =900
+                    BackColor =12632256
+                    Name ="EtiMvtRap"
+                    Caption ="Bonus Rapidité"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    Left =7155
+                    Top =615
+                    Width =1065
+                    Height =465
+                    FontSize =8
+                    FontWeight =900
+                    BackColor =12632256
+                    Name ="EtiMvtChdBase"
+                    Caption ="Remontées Chaudières"
+                    Tag ="DetachedLabel"
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    TextFontFamily =34
+                    Width =9015
+                    Height =330
+                    FontSize =10
+                    Name ="TxtRelevesMouvementIntitule"
+                    ControlSource ="=\"Récapitulatif des mouvements effectués depuis le \" & Format(DLookUp(\"ParVal"
+                        "eur\",\"TBLPARAMETRESGENERAUX\",\"ParType='RELEVE' AND ParCode='DATEDEBUT'\"),\""
+                        "Long Date\") & \" :\""
+                    FontName ="Arial"
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =195
+            Name ="Détail"
+            Begin
+                Begin TextBox
+                    CanShrink = NotDefault
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =1
+                    TextFontFamily =34
+                    Width =984
+                    Height =195
+                    ColumnWidth =1845
+                    FontSize =8
+                    Name ="TxtMvtDate"
+                    ControlSource ="MvtDate"
+                    Format ="Short Date"
+                    StatusBarText ="Mouvements Date"
+                    FontName ="Arial"
+                    InputMask ="99/99/0000;0;_"
+                End
+                Begin TextBox
+                    CanShrink = NotDefault
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontFamily =34
+                    Left =990
+                    Width =1263
+                    Height =195
+                    ColumnWidth =2310
+                    FontSize =8
+                    TabIndex =1
+                    Name ="TxtMvtNatCode"
+                    ControlSource ="MvtNatCode"
+                    StatusBarText ="Mouvements Nature Code"
+                    FontName ="Arial"
+                End
+                Begin TextBox
+                    CanShrink = NotDefault
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontFamily =34
+                    Left =2250
+                    Width =3987
+                    Height =195
+                    ColumnWidth =3240
+                    FontSize =8
+                    TabIndex =2
+                    Name ="TxtMvtIntitule"
+                    ControlSource ="=[MvtIntitule] & IIf([MvtDebit2002]>0 And Year([MvtDate])=2003,\" **\") & IIf([M"
+                        "vtDebit2002]>0 And Year([MvtDate])=2004,\" *\")"
+                    StatusBarText ="Mouvements Intitulé"
+                    FontName ="Arial"
+                End
+                Begin TextBox
+                    CanShrink = NotDefault
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    TextFontFamily =34
+                    Left =6240
+                    Width =921
+                    Height =195
+                    FontSize =8
+                    TabIndex =3
+                    Name ="TxtMvtDebit2003"
+                    ControlSource ="=[MvtDebit2003]+[MvtDebit2004]"
+                    FontName ="Arial"
+                End
+                Begin TextBox
+                    CanShrink = NotDefault
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    TextFontFamily =34
+                    Left =8220
+                    Width =816
+                    Height =195
+                    FontSize =8
+                    TabIndex =4
+                    Name ="TxtMvtChdRap"
+                    ControlSource ="MvtChdRap"
+                    FontName ="Arial"
+                End
+                Begin TextBox
+                    CanShrink = NotDefault
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    TextFontFamily =34
+                    Left =7155
+                    Width =1071
+                    Height =195
+                    FontSize =8
+                    TabIndex =5
+                    Name ="TxtMvtChdBase"
+                    ControlSource ="=[MvtCredit2003]+[MvtCredit2004]-[MvtChdISO]-[MvtChdRap]"
+                    FontName ="Arial"
+                End
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =570
+            BackColor =12632256
+            Name ="PiedGroupe"
+            Begin
+                Begin TextBox
+                    CanShrink = NotDefault
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontFamily =34
+                    Left =1005
+                    Width =5250
+                    Height =315
+                    FontSize =10
+                    Name ="TxtMvtChdCreditISOIntituler"
+                    ControlSource ="=IIf(Sum([MvtChdISO])>0,\"Crédits ISO (3000 points par chaudière ISO)\",\"\")"
+                    FontName ="Arial"
+                End
+                Begin TextBox
+                    CanShrink = NotDefault
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    TextFontFamily =34
+                    Left =7185
+                    Width =1860
+                    Height =315
+                    FontSize =10
+                    TabIndex =1
+                    Name ="TxtMvtChdCreditISO"
+                    ControlSource ="=IIf(Sum([MvtChdISO])>0,Sum([MvtChdISO]),\"\")"
+                    FontName ="Arial"
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    TextFontFamily =34
+                    Left =6255
+                    Top =315
+                    Width =930
+                    Height =255
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =2
+                    Name ="TxtTotalDebit"
+                    ControlSource ="=Sum([MvtDebit2003]+[MvtDebit2004])"
+                    FontName ="Arial"
+                    Begin
+                        Begin Label
+                            OldBorderStyle =1
+                            BorderWidth =1
+                            TextAlign =0
+                            Left =4545
+                            Top =315
+                            Width =1710
+                            Height =255
+                            Name ="EtiTOTAL"
+                            Caption ="TOTAL"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextAlign =2
+                    TextFontFamily =34
+                    Left =7185
+                    Top =315
+                    Width =1860
+                    Height =255
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =3
+                    Name ="TxtTotalCredit"
+                    ControlSource ="=Sum([MvtCredit2003]+[MvtCredit2004])"
+                    FontName ="Arial"
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    Left =1005
+                    Top =315
+                    Width =975
+                    Height =255
+                    FontSize =10
+                    TabIndex =4
+                    Name ="Txt2003TotalDebit2002"
+                    ControlSource ="=Sum(IIf(Year([MvtDate])=2003,[MvtDebit2002],0))"
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    Left =1980
+                    Top =315
+                    Width =870
+                    Height =255
+                    FontSize =10
+                    TabIndex =5
+                    Name ="Txt2004TotalDebit2002"
+                    ControlSource ="=Sum(IIf(Year([MvtDate])=2004,[MvtDebit2002],0))"
+                End
+            End
+        End
+    End
+End

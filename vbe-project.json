@@ -1,0 +1,17 @@
+﻿{
+  "Info": {
+    "Class": "clsDbVbeProject",
+    "Description": "VBE Project"
+  },
+  "Items": {
+    "Name": "SD COEUR DE PRO 2003 (FRONTALE)",
+    "Description": "Challenge Coeur De Pro 2003",
+    "FileName": "Sdpromod2003.accdb",
+    "HelpFile": "",
+    "HelpContextId": 0,
+    "ConditionalCompilationArguments": "",
+    "Mode": 0,
+    "Protection": 0,
+    "Type": 100
+  }
+}

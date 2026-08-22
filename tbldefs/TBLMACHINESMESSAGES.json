@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLMACHINESMESSAGES",
+    "Connect": ";DATABASE=rel:SdProFich2003.accdb",
+    "SourceTableName": "TBLMACHINESMESSAGES",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[MacMesExpNom], [MacMesExpUtilisateur], [MacMesExpDomaine], [MacMesExpDate], [MacMesExpHeure]"
+  }
+}

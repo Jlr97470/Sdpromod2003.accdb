@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLPARAMETRESGENERAUX",
+    "Connect": ";DATABASE=rel:SdProFich2003.accdb",
+    "SourceTableName": "TBLPARAMETRESGENERAUX",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ParType], [ParCode]"
+  }
+}

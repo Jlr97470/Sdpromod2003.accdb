@@ -1,0 +1,51 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMouvementsChaudieres"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 1,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Mouvements Chaudieres\r\nUtiliser Par:\r\n- ModGestionMouvements"
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -6,
+        "top": -25,
+        "right": 1282,
+        "bottom": 938
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 981,
+        "bottom": 397
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 6,
+          "Top": 4,
+          "Right": 116,
+          "Bottom": 186,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Mouvements Chaudieres\r\nUtiliser Par:\r\n- ModGestionMouvements"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "ClsSendMailStatus Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Class De Gestion Du Status D'Envoie D'EMail Par SendMail"
+      }
+    }
+  }
+}

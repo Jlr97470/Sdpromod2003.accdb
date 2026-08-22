@@ -1,0 +1,72 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMouvementsNaturesExercices"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Mouvements, Natures Et Exercices\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1258,
+        "bottom": 664
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1211,
+        "bottom": 434
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+        {
+          "Name": "TBLMOUVEMENTSNATURES",
+          "Alias": "",
+          "Left": 2,
+          "Top": 2,
+          "Right": 160,
+          "Bottom": 79,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 330,
+          "Top": 3,
+          "Right": 426,
+          "Bottom": 80,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 190,
+          "Top": 2,
+          "Right": 300,
+          "Bottom": 169,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Mouvements, Natures Et Exercices\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    }
+  }
+}

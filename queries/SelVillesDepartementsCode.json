@@ -1,0 +1,68 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelVillesDepartementsCode"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Villes, Code Departements"
+      }
+    },
+    "Columns": {
+      "TBLVILLES.VilCodePostal": {
+        "ColumnWidth": 1680,
+        "AggregateType": -1
+      },
+      "TBLVILLES.VilNom": {
+        "ColumnWidth": 2940,
+        "AggregateType": -1
+      },
+      "TBLVILLES.VilNum": {
+        "ColumnWidth": 1290,
+        "AggregateType": -1
+      },
+      "VilDepCode": {
+        "ColumnWidth": 1200,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 74,
+        "top": 360,
+        "right": 1248,
+        "bottom": 672
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1163,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 92,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Villes, Code Departements"
+      }
+    }
+  }
+}

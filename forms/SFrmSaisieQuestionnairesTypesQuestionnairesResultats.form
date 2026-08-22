@@ -1,0 +1,150 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    AutoCenter = NotDefault
+    AllowDeletions = NotDefault
+    CloseButton = NotDefault
+    AllowAdditions = NotDefault
+    ScrollBars =0
+    ViewsAllowed =1
+    BorderStyle =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10845
+    ItemSuffix =7
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x8f042ec7ef97e240
+    End
+    RecordSource ="SELECT TBLSOCIETESQUESTIONNAIRESTYPESID.*, TBLSOCIETESQUESTIONNAIRESRESULTATS.So"
+        "cQstResSocNum, TBLSOCIETESQUESTIONNAIRESRESULTATS.SocQstResValeur FROM TBLSOCIET"
+        "ESQUESTIONNAIRESTYPESID INNER JOIN TBLSOCIETESQUESTIONNAIRESRESULTATS ON TBLSOCI"
+        "ETESQUESTIONNAIRESTYPESID.SocQstTypIDNum=TBLSOCIETESQUESTIONNAIRESRESULTATS.SocQ"
+        "stResSocQstTypIDNum WHERE (((TBLSOCIETESQUESTIONNAIRESRESULTATS.SocQstResSocNum)"
+        "=Formulaires!FrmSaisieQuestionnairesTypes!CmbSocQstSocNum)) ORDER BY TBLSOCIETES"
+        "QUESTIONNAIRESTYPESID.SocQstTypID; "
+    OnCurrent ="[Event Procedure]"
+    BeforeUpdate ="[Event Procedure]"
+    AfterUpdate ="[Event Procedure]"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    OnActivate ="[Event Procedure]"
+    AllowDatasheetView =0
+    Begin
+        Begin Label
+            BackStyle =0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            Width =850
+            Height =850
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="MS Sans Serif"
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin TextBox
+            SpecialEffect =2
+            OldBorderStyle =0
+            Width =1701
+            LabelX =-1701
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            Width =1701
+            LabelX =-1701
+        End
+        Begin FormHeader
+            Height =0
+            Name ="EntêteFormulaire"
+        End
+        Begin Section
+            Height =994
+            Name ="Détail"
+            Begin
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =3
+                    OverlapFlags =93
+                    TextAlign =2
+                    BackStyle =0
+                    Width =861
+                    Height =255
+                    ColumnWidth =3585
+                    BackColor =12632256
+                    ForeColor =4210816
+                    Name ="TxtSocQstTypID"
+                    ControlSource ="SocQstTypID"
+                    StatusBarText ="Societe Questionnaire Type ID"
+                    FontName ="Arial"
+                    ControlTipText ="Societe Questionnaire Type ID"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =3
+                    OverlapFlags =95
+                    BackStyle =0
+                    Left =855
+                    Width =9981
+                    Height =510
+                    ColumnWidth =4185
+                    TabIndex =1
+                    BackColor =12632256
+                    ForeColor =4210816
+                    Name ="TxtSocQstTypIDLibelle"
+                    ControlSource ="SocQstTypIDLibelle"
+                    StatusBarText ="Societe Questionnaire Type ID Libelle"
+                    FontName ="Arial"
+                    ControlTipText ="Societe Questionnaire Type ID Libelle"
+                End
+                Begin ComboBox
+                    ColumnHeads = NotDefault
+                    TabStop = NotDefault
+                    RowSourceTypeInt =1
+                    SpecialEffect =3
+                    OverlapFlags =87
+                    BackStyle =0
+                    ListWidth =2268
+                    Left =855
+                    Top =525
+                    Width =9960
+                    Height =469
+                    TabIndex =2
+                    BackColor =12632256
+                    Name ="CmbSocQstResValeur"
+                    ControlSource ="SocQstResValeur"
+                    RowSourceType ="Value List"
+                    RowSource ="'Resultats Valeur';OUI;NON;"
+                    ColumnWidths ="2268"
+                    OnDblClick ="[Event Procedure]"
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            Name ="PiedFormulaire"
+        End
+    End
+End
+CodeBehindForm
+' See "SFrmSaisieQuestionnairesTypesQuestionnairesResultats.cls"

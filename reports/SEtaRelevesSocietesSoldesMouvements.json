@@ -1,0 +1,35 @@
+﻿{
+  "Info": {
+    "Class": "clsDbReport",
+    "Description": "SEtaRelevesSocietesSoldesMouvements Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 0.1667,
+      "TopMargin": 0.1965,
+      "RightMargin": 0.1667,
+      "BotMargin": 0.1965,
+      "DataOnly": false,
+      "Width": 6.2812,
+      "Height": 0.1354,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Sous Etat Des Releves Mouvements"
+      }
+    },
+    "Hidden": true
+  }
+}

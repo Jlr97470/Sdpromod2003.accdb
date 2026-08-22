@@ -1,0 +1,94 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "AnaSocietesResultatsExercices"
+  },
+  "Items": {
+    "QueryType": 16,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total Des Remontees De Chaudieres Par Exercices\r\nUtiliser Par :\r\n- SelSocietesResultatsExercicesDetailler"
+      }
+    },
+    "Columns": {
+      "SocResNbChd2000": {
+        "ColumnWidth": 1875,
+        "AggregateType": -1
+      },
+      "SocResNbChd2001": {
+        "ColumnWidth": 1875,
+        "AggregateType": -1
+      },
+      "SocResNbChd2002": {
+        "ColumnWidth": 1875,
+        "AggregateType": -1
+      },
+      "SocResNbChd2003": {
+        "ColumnWidth": 1875,
+        "AggregateType": -1
+      },
+      "SocResNbChd2004": {
+        "ColumnWidth": 1875,
+        "AggregateType": -1
+      },
+      "SocResNbChdTotal": {
+        "ColumnWidth": 1875,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -6,
+        "top": -25,
+        "right": 1282,
+        "bottom": 938
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1207,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 559,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 98,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "UniSocietesResultats",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 402,
+          "Bottom": 113,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSEMESTRES",
+          "Alias": "",
+          "Left": 440,
+          "Top": 6,
+          "Right": 536,
+          "Bottom": 113,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total Des Remontees De Chaudieres Par Exercices\r\nUtiliser Par :\r\n- SelSocietesResultatsExercicesDetailler"
+      }
+    }
+  }
+}

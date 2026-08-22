@@ -1,0 +1,548 @@
+﻿-------------------------------------
+Beginning Export of Source Files
+Sdpromod2003.accdb
+VCS Version 5.0.1
+Export Format: 5.0.0
+Full Path: D:\MES_SOURCES\ACCESS\SOURCES\DELTAINFORMATIQUE\ACCESS_2007-2016\SD COEUR DE PRO 2003\Sdpromod2003.accdb
+Export Folder: D:\MES_SOURCES\GITHUB\Sdpromod2003.accdb\
+22/08/2026 09:54:21
+Performing Full Export
+Caching 1 back-end database connection(s)
+  D:\MES_SOURCES\ACCESS\SOURCES\DELTAINFORMATIQUE\ACCESS_2007-2016\SD COEUR DE PRO 2003\SDPROFICH2003.ACCDB
+-------------------------------------
+Scanning source files...
+No db connections found in this database.
+No vbe forms found in this database.
+No saved specs found in this database.
+No shared images found in this database.
+No table data found in this database.
+No table data macros found in this database.
+No hidden attributes found in this database.
+-------------------------------------
+Exporting project...            Sdpromod2003.accdb
+[1]
+-------------------------------------
+Exporting vb project...         SD COEUR DE PRO 2003 (FRONTALE)
+[1]
+-------------------------------------
+Exporting vbe references...     DAO
+[8]
+-------------------------------------
+Exporting proj properties...    Current Project Properties (Access)
+[2]
+-------------------------------------
+Exporting modules...            ModGestionQuestionnaires
+  ModGestionBases
+  ModGestionFichiers
+  ClsSendMailStatus
+  ModGestionFonctions
+  ModGestionMouvements
+  ModGestionReferences
+  ModGestionFormulaires
+  ModGestionImportsExports
+  ModGestionTraitements
+  ModGestionMessageries
+[11]
+-------------------------------------
+Exporting commandbars...        Menu Coeur De Pro 2003
+
+-------------------------------------
+-2147467259 - La méthode 'Add' de l'objet 'CommandBarControls' a échoué
+Error -2147467259: La méthode 'Add' de l'objet 'CommandBarControls' a échoué 
+-------------------------------------
+
+-------------------------------------
+-2147467259 - La méthode 'Add' de l'objet 'CommandBarControls' a échoué
+Error -2147467259: La méthode 'Add' de l'objet 'CommandBarControls' a échoué 
+-------------------------------------
+
+-------------------------------------
+438 - Propriété ou méthode non gérée par cet objet
+Error 438: Propriété ou méthode non gérée par cet objet 
+-------------------------------------
+
+-------------------------------------
+438 - Propriété ou méthode non gérée par cet objet
+Error 438: Propriété ou méthode non gérée par cet objet 
+-------------------------------------
+
+-------------------------------------
+438 - Propriété ou méthode non gérée par cet objet
+Error 438: Propriété ou méthode non gérée par cet objet 
+-------------------------------------
+
+-------------------------------------
+-2147467259 - La méthode 'Add' de l'objet 'CommandBarControls' a échoué
+Error -2147467259: La méthode 'Add' de l'objet 'CommandBarControls' a échoué 
+-------------------------------------
+
+-------------------------------------
+438 - Propriété ou méthode non gérée par cet objet
+Error 438: Propriété ou méthode non gérée par cet objet 
+-------------------------------------
+  Outil Call Coeur De Pro 2003
+  Outil Coeur De Pro 2003
+  Menu Call Coeur De Pro 2003
+
+-------------------------------------
+ERROR: Unhandled error, likely before `On Error` directive
+Error -2147467259: La méthode 'Controls' de l'objet 'CommandBarPopup' a échoué Source: .Unknown.LogUnhandledErrors
+-------------------------------------
+
+-------------------------------------
+438 - Propriété ou méthode non gérée par cet objet
+Error 438: Propriété ou méthode non gérée par cet objet 
+-------------------------------------
+
+-------------------------------------
+438 - Propriété ou méthode non gérée par cet objet
+Error 438: Propriété ou méthode non gérée par cet objet 
+-------------------------------------
+
+-------------------------------------
+438 - Propriété ou méthode non gérée par cet objet
+Error 438: Propriété ou méthode non gérée par cet objet 
+-------------------------------------
+
+-------------------------------------
+438 - Propriété ou méthode non gérée par cet objet
+Error 438: Propriété ou méthode non gérée par cet objet 
+-------------------------------------
+[4]
+-------------------------------------
+Exporting themes...             Thème Office
+[1]
+-------------------------------------
+Exporting db properties...      Database Properties (DAO)
+[47]
+-------------------------------------
+Exporting imex specs...         Liste part VART2 après révision Spécification d'attache
+[1]
+-------------------------------------
+Exporting tables...             TBLCADEAUXACHATS
+  TBLCADEAUXARTICLES
+  TBLCHAUDIERESARTICLES
+  TBLCHAUDIERESREMONTEES
+  TBLCIVILITES
+  TBLCONTACTS
+  TBLCONTACTSFONCTIONS
+  TBLDEPARTEMENTS
+  TBLEXERCICES
+  TBLFICHIERS
+    Sanitized in 0,002 seconds.
+  TBLFICHIERS (SQL)
+  TBLMACHINES
+  TBLMACHINESCONNEXIONS
+  TBLMACHINESMESSAGES
+  TBLMENU
+  TBLMOUVEMENTS
+  TBLMOUVEMENTSNATURES
+  TBLPARAMETRES
+    Sanitized in 0,001 seconds.
+  TBLPARAMETRES (SQL)
+  TBLPARAMETRESGENERAUX
+  TBLSEMESTRES
+  TBLSOCIETES
+  TBLSOCIETESADHERENTS
+  TBLSOCIETESAPPELS2
+  TBLSOCIETESAPPELS3
+  TBLSOCIETESCALL1
+  TBLSOCIETESCALL2
+  TBLSOCIETESCALL3
+  TBLSOCIETESQUESTIONNAIRES
+  TBLSOCIETESQUESTIONNAIRESRESULTATS
+  TBLSOCIETESQUESTIONNAIRESTYPES
+  TBLSOCIETESQUESTIONNAIRESTYPESID
+  TBLSOCIETESRESULTATS
+  TBLSOCIETESRESULTATSBONUS
+  TBLSOCIETESTYPES
+  TBLTYPESIDTYPES
+  TBLVILLES
+[35]
+-------------------------------------
+Exporting queries...            AjoTBLSOCIETESRESULTATSBONUS
+  AjoTBLSOCIETESRESULTATSBONUS
+  AnaSocietesResultats
+  AnaSocietesResultats
+  AnaSocietesResultatsChdGammesSemestresRelevesDebut
+  AnaSocietesResultatsChdGammesSemestresRelevesDebut
+  AnaSocietesResultatsChdGammesSemestresRelevesFin
+  AnaSocietesResultatsChdGammesSemestresRelevesFin
+  AnaSocietesResultatsExercices
+  AnaSocietesResultatsExercices
+  AnaSocietesResultatsISOExercices
+  AnaSocietesResultatsISOExercices
+  AnaSocietesResultatsISOSemestres
+  AnaSocietesResultatsISOSemestres
+  AnaSocietesResultatsISOSPLITSemestres
+  AnaSocietesResultatsISOSPLITSemestres
+  AnaSocietesResultatsSemestres
+  AnaSocietesResultatsSemestres
+  AnaSocietesResultatsTHEMAExercices
+  AnaSocietesResultatsTHEMAExercices
+  AnaSocietesResultatsTHEMASemestres
+  AnaSocietesResultatsTHEMASemestres
+  SelCadeauxArticles
+  SelCadeauxArticles
+  SelChaudieresArticlesSemestres
+  SelChaudieresArticlesSemestres
+  SelContactsFonctions
+  SelContactsFonctions
+  SelContactsInscrit
+  SelContactsInscrit
+  SelContactsNonInscrit
+  SelContactsNonInscrit
+  SelContactsVilles
+  SelContactsVilles
+  SelEtatRelevesSocietesSoldesISOExercices
+  SelEtatRelevesSocietesSoldesISOExercices
+  SelEtatRelevesSocietesSoldesMouvements
+  SelEtatRelevesSocietesSoldesMouvements
+  SelEtatRelevesSocietesSoldesSTAAdhConTAIns
+  SelEtatRelevesSocietesSoldesSTAAdhConTAIns
+  SelExtSocDRConATCSocSTAAdhConTAIns
+  SelExtSocDRConATCSocSTAAdhConTAIns
+  SelExtSocDRConATCSocSTAAdhConTAInsResISOSoldesDetailler
+  SelExtSocDRConATCSocSTAAdhConTAInsResISOSoldesDetailler
+  SelExtSocDRConATCSocSTAAdhConTAInsResISOSoldesDetaillerBis
+  SelExtSocDRConATCSocSTAAdhConTAInsResISOSoldesDetaillerBis
+  SelExtSocDRConATCSocSTAAdhConTAInsResSemestresDetailler
+  SelExtSocDRConATCSocSTAAdhConTAInsResSemestresDetailler
+  SelExtSocDRConATCSocSTAAdhConTAInsResSemestresDetaillerBis
+  SelExtSocDRConATCSocSTAAdhConTAInsResSemestresDetaillerBis
+  SelExtSocDRConATCSocSTAAdhConTAInsResSemestresDetaillerSPLIT
+  SelExtSocDRConATCSocSTAAdhConTAInsResSemestresDetaillerSPLIT
+  SelExtSocDRConATCSocSTAAdhConTAInsResSemestresDetSPLITBis
+  SelExtSocDRConATCSocSTAAdhConTAInsResSemestresDetSPLITBis
+  SelExtSocDRConATCSocSTAAdhConTAInsResultatsDetailler
+  SelExtSocDRConATCSocSTAAdhConTAInsResultatsDetailler
+  SelExtSocDRConATCSocSTAAdhConTAInsResultatsDetSPLIT
+  SelExtSocDRConATCSocSTAAdhConTAInsResultatsDetSPLIT
+  SelExtSocietesSTAAdhConTAIns
+  SelExtSocietesSTAAdhConTAIns
+  SelExtSocietesSTAAdhConTAInsResultatsCall1
+  SelExtSocietesSTAAdhConTAInsResultatsCall1
+  SelExtSocietesSTAAdhConTAInsResultatsCall2
+  SelExtSocietesSTAAdhConTAInsResultatsCall2
+  SelExtSocietesSTAAdhConTAInsResultatsCall3
+  SelExtSocietesSTAAdhConTAInsResultatsCall3
+  SelExtSocietesSTAContactsTAInsCadeauxAchats
+  SelExtSocietesSTAContactsTAInsCadeauxAchats
+  SelExtSocietesSTAContactsTAInsChaudieresRemontees
+  SelExtSocietesSTAContactsTAInsChaudieresRemontees
+  SelFichiersDetailler
+  SelFichiersDetailler
+  SelMouvementsCadeaux
+  SelMouvementsCadeaux
+  SelMouvementsChaudieres
+  SelMouvementsChaudieres
+  SelMouvementsNaturesExercices
+  SelMouvementsNaturesExercices
+  SelMouvementsRegularisationCheques
+  SelMouvementsRegularisationCheques
+  SelMouvementsUtilsBonusISO
+  SelMouvementsUtilsBonusISO
+  SelParametresDetailler
+  SelParametresDetailler
+  SelParametresGenerauxDetailler
+  SelParametresGenerauxDetailler
+  SelSocDRConATCAdhResultatsExercicesDetailler
+  SelSocDRConATCAdhResultatsExercicesDetailler
+  SelSocDRConATCSocSTAAdhConTAIns
+  SelSocDRConATCSocSTAAdhConTAIns
+  SelSocDRConATCSocSTAAdhConTAInsDateAdh
+  SelSocDRConATCSocSTAAdhConTAInsDateAdh
+  SelSocDRConATCSocSTAAdhConTAInsResultatsExercicesDetailler
+  SelSocDRConATCSocSTAAdhConTAInsResultatsExercicesDetailler
+  SelSocietesAdherentsExercices
+  SelSocietesAdherentsExercices
+  SelSocietesAppels2
+  SelSocietesAppels2
+  SelSocietesAppels3
+  SelSocietesAppels3
+  SelSocietesDRContactsATC
+  SelSocietesDRContactsATC
+  SelSocietesDRContactsATCInscrit
+  SelSocietesDRContactsATCInscrit
+  SelSocietesDRContactsDRATCInscrit
+  SelSocietesDRContactsDRATCInscrit
+  SelSocietesFiliales
+  SelSocietesFiliales
+  SelSocietesPointsUtilsISOExercicesDetailler
+  SelSocietesPointsUtilsISOExercicesDetailler
+  SelSocietesPointsUtilsISOSemestresDetailler
+  SelSocietesPointsUtilsISOSemestresDetailler
+  SelSocietesQuestionnairesTypes
+  SelSocietesQuestionnairesTypes
+  SelSocietesQuestionnairesTypesID
+  SelSocietesQuestionnairesTypesID
+  SelSocietesResultatsBonusDetailler
+  SelSocietesResultatsBonusDetailler
+  SelSocietesResultatsBonusDetaillerReleves
+  SelSocietesResultatsBonusDetaillerReleves
+  SelSocietesResultatsExercices
+  SelSocietesResultatsExercices
+  SelSocietesResultatsExercices2000
+  SelSocietesResultatsExercices2000
+  SelSocietesResultatsExercices2001
+  SelSocietesResultatsExercices2001
+  SelSocietesResultatsExercices2002
+  SelSocietesResultatsExercices2002
+  SelSocietesResultatsExercices2003
+  SelSocietesResultatsExercices2003
+  SelSocietesResultatsExercicesDetailler
+  SelSocietesResultatsExercicesDetailler
+  SelSocietesResultatsSemestres
+  SelSocietesResultatsSemestres
+  SelSocietesResultatsSemestresDetailler
+  SelSocietesResultatsSemestresDetailler
+  SelSocietesResultatsSemestresDetaillerReleves
+  SelSocietesResultatsSemestresDetaillerReleves
+  SelSocietesSoldes
+  SelSocietesSoldes
+  SelSocietesSoldesExercices
+  SelSocietesSoldesExercices
+  SelSocietesSoldesExercicesDetailler
+  SelSocietesSoldesExercicesDetailler
+  SelSocietesSoldesExercicesDetaillerReleves
+  SelSocietesSoldesExercicesDetaillerReleves
+  SelSocietesSoldesISOExercices
+  SelSocietesSoldesISOExercices
+  SelSocietesSoldesISOSem
+  SelSocietesSoldesISOSem
+  SelSocietesSoldesISOSemestres
+  SelSocietesSoldesISOSemestres
+  SelSocietesSoldesISOSemestresDetailler
+  SelSocietesSoldesISOSemestresDetailler
+  SelSocietesSTAAdhVillesContactsTAInscrit
+  SelSocietesSTAAdhVillesContactsTAInscrit
+  SelSocietesSTAContactsTAInsCadeauxAchats
+  SelSocietesSTAContactsTAInsCadeauxAchats
+  SelSocietesSTAContactsTAInsChaudieresRemontees
+  SelSocietesSTAContactsTAInsChaudieresRemontees
+  SelSocietesSTAVillesContactsTAInscrit
+  SelSocietesSTAVillesContactsTAInscrit
+  SelSocietesVilles
+  SelSocietesVilles
+  SelSocietesVillesContactsInscrit
+  SelSocietesVillesContactsInscrit
+  SelVillesDepartementsCode
+  SelVillesDepartementsCode
+  SupTBLSOCIETESRESULTATSBONUS
+  SupTBLSOCIETESRESULTATSBONUS
+  UniSocietesResultats
+  UniSocietesResultats
+[86]
+-------------------------------------
+Exporting forms...              FrmGestionParametresGeneraux
+    Sanitized in 0,006 seconds.
+  SFrmSaisieQuestionnairesTypesQuestionnairesResultats
+    Sanitized in 0,003 seconds.
+  FrmLstSocietesTypes
+    Sanitized in 0,007 seconds.
+  FrmLstMouvementsNatures
+    Sanitized in 0,007 seconds.
+  FrmSaisieQuestionnairesTypes
+    Sanitized in 0,011 seconds.
+  FrmFicheContacts
+    Sanitized in 0,020 seconds.
+  FrmLstContacts
+    Sanitized in 0,008 seconds.
+  SFrmFicheSocietesResultatsISOExercices
+    Sanitized in 0,005 seconds.
+  SFrmFicheSocietesResultatsSoldesExercices
+    Sanitized in 0,006 seconds.
+  FrmLstContactsFonctions
+    Sanitized in 0,007 seconds.
+  FrmSaisieCall2
+    Sanitized in 0,053 seconds.
+  FrmFicheQuestionnairesTypes
+    Sanitized in 0,010 seconds.
+  FrmLstChaudieresRemontees
+    Sanitized in 0,007 seconds.
+  SFrmFicheQuestionnairesTypesQuestionnairesTypesID
+    Sanitized in 0,010 seconds.
+  FrmSaisieCall3
+    Sanitized in 0,013 seconds.
+  SFrmSaisieCallSocietes
+    Sanitized in 0,003 seconds.
+  FrmLstExercices
+    Sanitized in 0,007 seconds.
+  FrmGestionFichiers
+    Sanitized in 0,004 seconds.
+  SFrmSaisieCallContacts
+    Sanitized in 0,002 seconds.
+  FrmRechercheMulti
+    Sanitized in 0,012 seconds.
+  FrmSaisieBonusAnimation
+    Sanitized in 0,008 seconds.
+  FrmAbout
+    Sanitized in 0,006 seconds.
+  FrmSaisieChaudieresRemontees
+    Sanitized in 0,011 seconds.
+  FrmFicheSocietes
+    Sanitized in 0,022 seconds.
+  FrmGestionTraitements
+    Sanitized in 0,005 seconds.
+  FrmLstDepartements
+    Sanitized in 0,007 seconds.
+  FrmLstMachines
+    Sanitized in 0,005 seconds.
+  FrmLstSocietes
+    Sanitized in 0,008 seconds.
+  FrmExtraction
+    Sanitized in 0,007 seconds.
+  FrmFusion
+    Sanitized in 0,009 seconds.
+  FrmGestionMail
+    Sanitized in 0,007 seconds.
+  FrmSaisieCall1
+    Sanitized in 0,020 seconds.
+  FrmGestionMessages
+    Sanitized in 0,013 seconds.
+  FrmSaisieChaudieresArticles
+    Sanitized in 0,004 seconds.
+  FrmGestionParametres
+    Sanitized in 0,006 seconds.
+  FrmLstSemestres
+    Sanitized in 0,008 seconds.
+  FrmLstCadeauxAchats
+    Sanitized in 0,007 seconds.
+  FrmLstCivilites
+    Sanitized in 0,007 seconds.
+  FrmLstVilles
+    Sanitized in 0,008 seconds.
+  SFrmFicheSocietesResultatsChaudieresSemestres
+    Sanitized in 0,006 seconds.
+  FrmMenuCall
+    Sanitized in 0,006 seconds.
+  FrmExtractionMulti
+    Sanitized in 0,011 seconds.
+  FrmFusionMulti
+    Sanitized in 0,009 seconds.
+  FrmMenuPrincipale
+    Sanitized in 0,007 seconds.
+  FrmRecherche
+    Sanitized in 0,009 seconds.
+  FrmNotes
+    Sanitized in 0,001 seconds.
+  FrmSaisieCadeauxAchats
+    Sanitized in 0,010 seconds.
+  FrmSaisieCadeauxArticles
+    Sanitized in 0,005 seconds.
+  FrmSaisieRegularisationCheques
+    Sanitized in 0,009 seconds.
+[49]
+-------------------------------------
+Exporting macros...             Autokeys
+    Sanitized in 0,000 seconds.
+  AutoExec
+    Sanitized in 0,000 seconds.
+  MacMenuPrincipale
+    Sanitized in 0,003 seconds.
+[3]
+-------------------------------------
+Exporting reports...            SEtaRelevesSocietesSoldesISOExercices
+    Sanitized in 0,001 seconds.
+  EtaRelevesSocietesSoldesSTAAdhConTAIns
+    Sanitized in 0,005 seconds.
+  SEtaRelevesSocietesSoldesMouvements
+    Sanitized in 0,003 seconds.
+[3]
+-------------------------------------
+Exporting relations...          MSysAccessStorageSTGREL
+[1]
+-------------------------------------
+Exporting doc properties...     Database Documents
+[6]
+-------------------------------------
+Exporting nav pane groups...    Groups
+[1]
+-------------------------------------
+Done. (7,28 seconds)
+--------------------------------------------------
+                PERFORMANCE REPORTS
+--------------------------------------------------
+Category                      Count     Seconds
+--------------------------------------------------
+Queries                       86        3,70
+Forms                         49        2,10
+CommandBars                   4         0,53
+Tables                        35        0,30
+Modules                       11        0,16
+Reports                       3         0,09
+Macros                        3         0,05
+DB Properties                 47        0,04
+IMEX Specs                    1         0,03
+Relations                     1         0,03
+Nav Pane Groups               1         0,03
+Doc Properties                6         0,03
+VBE References                8         0,02
+Project                       1         0,02
+Themes                        1         0,02
+Proj Properties               2         0,02
+VB Project                    1         0,02
+DB Connections                0         0,02
+Shared Images                 0         0,00
+Table Data Macros             0         0,00
+Table Data                    0         0,00
+VBE Forms                     0         0,00
+Hidden Attributes             0         0,00
+Saved Specs                   0         0,00
+--------------------------------------------------
+TOTALS:                       260       7,20
+--------------------------------------------------
+
+--------------------------------------------------
+Operations                    Count     Seconds
+--------------------------------------------------
+Convert to JSON               364       1,63
+Format SQL                    86        1,36
+Sanitize File                 55        0,45
+Parse LvProp                  86        0,42
+Write JSON                    86        0,37
+Console Updates               35        0,35
+App.SaveAsText()              55        0,33
+Write File                    504       0,18
+Reconstruct SQL               86        0,16
+Read File DevMode             52        0,08
+Read File                     168       0,07
+Verify Path                   648       0,06
+Read File Bytes               155       0,06
+Read MSysQueries              86        0,06
+Get @Folder Annotation        126       0,05
+Get File Property Hash        201       0,05
+Scan DB Objects               1         0,04
+Read MSysObjects              86        0,04
+Parse JSON                    100       0,04
+Compute SHA256                713       0,04
+Sanitize VBA Code             59        0,03
+Export VBE Module             11        0,03
+Get VBA Hash                  63        0,03
+Get Modified Date             606       0,03
+Delete File                   71        0,02
+Increment Progress            2         0,01
+App.ExportXML()               2         0,01
+Check for linked table        35        0,01
+Export Linked Props           33        0,01
+Parse LvExtra                 86        0,01
+Write SQL                     86        0,00
+Cache Back-End Connections    1         0,00
+Scan Folder Contents (API)    3         0,00
+modFileAccess.GetUncPath      68        0,00
+Sanitize XML                  2         0,00
+Format XML                    2         0,00
+Quick Count Objects           1         0,00
+Close Open Objects            1         0,00
+Save Table SQL                2         0,00
+Export Theme                  1         0,00
+Quick Count Files             1         0,00
+File Pattern Exists (API)     14        0,00
+Clear Orphaned Files          9         0,00
+Clear Files by Ext            10        0,00
+--------------------------------------------------
+Other Operations                        1,26
+TOTAL RUNTIME:                          7,28
+--------------------------------------------------
+
+

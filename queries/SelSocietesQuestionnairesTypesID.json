@@ -1,0 +1,72 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesQuestionnairesTypesID"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Questionnaires Types ID Des Societes\r\nUtiliser Par:\r\n- FrmSaisiesQuestionnairesTypes"
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -6,
+        "top": -25,
+        "right": 1282,
+        "bottom": 938
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1066,
+        "bottom": 244
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 241,
+          "Bottom": 203,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETESQUESTIONNAIRES",
+          "Alias": "",
+          "Left": 333,
+          "Top": 6,
+          "Right": 575,
+          "Bottom": 128,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETESQUESTIONNAIRESTYPESID",
+          "Alias": "",
+          "Left": 704,
+          "Top": 6,
+          "Right": 936,
+          "Bottom": 173,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Questionnaires Types ID Des Societes\r\nUtiliser Par:\r\n- FrmSaisiesQuestionnairesTypes"
+      }
+    }
+  }
+}

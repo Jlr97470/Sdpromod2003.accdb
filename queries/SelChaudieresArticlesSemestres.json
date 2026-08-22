@@ -1,0 +1,72 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelChaudieresArticlesSemestres"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Remontees De Chaudieres, Articles, Semestres\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1258,
+        "bottom": 791
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1211,
+        "bottom": 561
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+        {
+          "Name": "TBLSEMESTRES",
+          "Alias": "",
+          "Left": 203,
+          "Top": 168,
+          "Right": 362,
+          "Bottom": 290,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCHAUDIERESARTICLES",
+          "Alias": "",
+          "Left": 203,
+          "Top": 3,
+          "Right": 362,
+          "Bottom": 80,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCHAUDIERESREMONTEES",
+          "Alias": "",
+          "Left": 5,
+          "Top": 3,
+          "Right": 173,
+          "Bottom": 215,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Remontees De Chaudieres, Articles, Semestres\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    }
+  }
+}

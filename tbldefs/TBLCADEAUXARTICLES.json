@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLCADEAUXARTICLES",
+    "Connect": ";DATABASE=rel:SdProFich2003.accdb",
+    "SourceTableName": "TBLCADEAUXARTICLES",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[CadArtExeNum], [CadArtRef]"
+  }
+}

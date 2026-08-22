@@ -1,0 +1,368 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    AutoResize = NotDefault
+    RecordSelectors = NotDefault
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    ShortcutMenu = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    CloseButton = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowEdits = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    ViewsAllowed =1
+    TabularFamily =220
+    BorderStyle =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    Cycle =1
+    GridY =10
+    Width =11280
+    DatasheetFontHeight =10
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x35cca882cd97e240
+    End
+    RecordSource ="SELECT TBLSOCIETES.SocNum, TBLSOCIETES.SocDateMaj, TBLSOCIETES.SocRaison, TBLSOC"
+        "IETES.SocAdresse, TBLSOCIETES.SocVilNum, TBLSOCIETES.SocTel1, TBLSOCIETES.SocTel"
+        "2, TBLSOCIETES.SocFax, TBLSOCIETES.SocEMail, TBLSOCIETES.SocWeb FROM TBLSOCIETES"
+        " WHERE (((TBLSOCIETES.SocAdh)=True)); "
+    BeforeUpdate ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    AllowDatasheetView =0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontName ="Tahoma"
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Tahoma"
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            OldBorderStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Tahoma"
+            AsianLineBreak =255
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            Width =1701
+            LabelX =-1701
+            FontName ="Tahoma"
+        End
+        Begin Subform
+            SpecialEffect =2
+            Width =1701
+            Height =1701
+        End
+        Begin Section
+            Height =1605
+            Name ="Détail"
+            Begin
+                Begin TextBox
+                    FELineBreak = NotDefault
+                    SpecialEffect =3
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =45
+                    Top =45
+                    Width =4005
+                    Height =270
+                    BackColor =12632256
+                    ForeColor =-2147483640
+                    Name ="TxtSocCallSocRaison"
+                    ControlSource ="SocRaison"
+                    StatusBarText ="Societe Call Raison"
+                    FontName ="Arial"
+                    ControlTipText ="Societe Call Raison"
+                    AsianLineBreak =0
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    FELineBreak = NotDefault
+                    SpecialEffect =3
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =45
+                    Top =345
+                    Width =4005
+                    Height =900
+                    TabIndex =1
+                    BackColor =12632256
+                    ForeColor =-2147483640
+                    Name ="TxtSocCallSocAdresse"
+                    ControlSource ="SocAdresse"
+                    StatusBarText ="Societe Questionnaire Adresse"
+                    FontName ="Arial"
+                    ControlTipText ="Societe Call Adresse"
+                    AsianLineBreak =0
+                End
+                Begin TextBox
+                    FELineBreak = NotDefault
+                    SpecialEffect =3
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =9420
+                    Top =60
+                    Width =1830
+                    Height =270
+                    TabIndex =2
+                    BackColor =12632256
+                    ForeColor =-2147483640
+                    Name ="TxtSocCallSocTel1"
+                    ControlSource ="SocTel1"
+                    StatusBarText ="Societe Call Telephone 1"
+                    FontName ="Arial"
+                    InputMask ="00\\ 00\\ 00\\ 00\\ 00;;_"
+                    ControlTipText ="Societe Call Telephone 1"
+                    AsianLineBreak =0
+                End
+                Begin TextBox
+                    FELineBreak = NotDefault
+                    SpecialEffect =3
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =9420
+                    Top =360
+                    Width =1830
+                    Height =270
+                    TabIndex =3
+                    BackColor =12632256
+                    ForeColor =-2147483640
+                    Name ="TxtSocCallTel2"
+                    ControlSource ="SocTel2"
+                    StatusBarText ="Societe Call Telephone 2"
+                    FontName ="Arial"
+                    InputMask ="00\\ 00\\ 00\\ 00\\ 00;;_"
+                    ControlTipText ="Societe Call Telephone 2"
+                    AsianLineBreak =0
+                End
+                Begin TextBox
+                    FELineBreak = NotDefault
+                    SpecialEffect =3
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =9420
+                    Top =675
+                    Width =1830
+                    Height =255
+                    TabIndex =4
+                    BackColor =12632256
+                    ForeColor =-2147483640
+                    Name ="TxtSocCallSocFax"
+                    ControlSource ="SocFax"
+                    StatusBarText ="Societe Call Fax"
+                    FontName ="Arial"
+                    InputMask ="00\\ 00\\ 00\\ 00\\ 00;;_"
+                    ControlTipText ="Societe Call Fax"
+                    AsianLineBreak =0
+                End
+                Begin TextBox
+                    FontUnderline = NotDefault
+                    FELineBreak = NotDefault
+                    IsHyperlink = NotDefault
+                    SpecialEffect =3
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =7455
+                    Top =975
+                    Width =3795
+                    Height =270
+                    TabIndex =5
+                    BackColor =12632256
+                    ForeColor =-2147483640
+                    Name ="TxtSocCallSocEMail"
+                    ControlSource ="SocEMail"
+                    StatusBarText ="Societe Call Societe EMail"
+                    FontName ="Arial"
+                    ControlTipText ="Societe Call Societe EMail"
+                    AsianLineBreak =0
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =8460
+                    Top =60
+                    Width =900
+                    Height =255
+                    BackColor =-2147483633
+                    ForeColor =128
+                    Name ="EtiSocCallSocTel1"
+                    Caption ="Tel 1 :"
+                    FontName ="MS Sans Serif"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =8460
+                    Top =360
+                    Width =900
+                    Height =255
+                    BackColor =-2147483633
+                    ForeColor =128
+                    Name ="EtiSocCallSocTel2"
+                    Caption ="Tel 2 :"
+                    FontName ="MS Sans Serif"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =8460
+                    Top =660
+                    Width =900
+                    Height =255
+                    BackColor =-2147483633
+                    ForeColor =128
+                    Name ="EtiSocCallSocFax"
+                    Caption ="Fax :"
+                    FontName ="MS Sans Serif"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =6465
+                    Top =960
+                    Width =930
+                    Height =270
+                    BackColor =-2147483633
+                    ForeColor =128
+                    Name ="EtiSocCallSocEMail"
+                    Caption ="EMail :"
+                    FontName ="MS Sans Serif"
+                End
+                Begin TextBox
+                    FontUnderline = NotDefault
+                    FELineBreak = NotDefault
+                    IsHyperlink = NotDefault
+                    SpecialEffect =3
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =7455
+                    Top =1290
+                    Width =3795
+                    Height =270
+                    TabIndex =6
+                    BackColor =12632256
+                    ForeColor =-2147483640
+                    Name ="TxtSocCallSocWeb"
+                    ControlSource ="SocWeb"
+                    StatusBarText ="Societe Call Societe Web"
+                    FontName ="Arial"
+                    ControlTipText ="Societe Call Societe Web"
+                    AsianLineBreak =0
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =6465
+                    Top =1275
+                    Width =930
+                    Height =270
+                    BackColor =-2147483633
+                    ForeColor =128
+                    Name ="EtiSocCallSocWeb"
+                    Caption ="Site Web :"
+                    FontName ="MS Sans Serif"
+                End
+                Begin ComboBox
+                    ColumnHeads = NotDefault
+                    LimitToList = NotDefault
+                    SpecialEffect =3
+                    OverlapFlags =85
+                    BackStyle =0
+                    ColumnCount =4
+                    ListWidth =6804
+                    Left =45
+                    Top =1290
+                    Width =1650
+                    Height =270
+                    TabIndex =7
+                    BackColor =12632256
+                    BorderColor =12632256
+                    Name ="LstSocVilNum"
+                    ControlSource ="SocVilNum"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT SelVillesDepartementsCode.VilNum, SelVillesDepartementsCode.VilCodePostal"
+                        ", SelVillesDepartementsCode.VilNom, TBLDEPARTEMENTS.DepPays FROM SelVillesDepart"
+                        "ementsCode LEFT JOIN TBLDEPARTEMENTS ON SelVillesDepartementsCode.VilDepCode=TBL"
+                        "DEPARTEMENTS.DepCode ORDER BY SelVillesDepartementsCode.VilCodePostal; "
+                    ColumnWidths ="0;1701;2835;2268"
+                    StatusBarText ="Ville"
+                    FontName ="Arial"
+                    OnGotFocus ="[Event Procedure]"
+                    OnLostFocus ="[Event Procedure]"
+                    OnNotInList ="[Event Procedure]"
+                    ControlTipText ="Ville"
+                End
+                Begin CommandButton
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    Left =1725
+                    Top =1275
+                    Width =285
+                    Height =285
+                    FontWeight =700
+                    TabIndex =8
+                    ForeColor =128
+                    Name ="CmdAjouterVilles"
+                    Caption ="..."
+                    StatusBarText ="Nouvelle Ville"
+                    OnClick ="[Event Procedure]"
+                    FontName ="Arial"
+                    ControlTipText ="Nouvelle Ville"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    FELineBreak = NotDefault
+                    SpecialEffect =3
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =2085
+                    Top =1305
+                    Width =1965
+                    Height =255
+                    TabIndex =9
+                    BackColor =12632256
+                    BorderColor =12632256
+                    Name ="TxtSocVilNom"
+                    ControlSource ="=LstSocVilNum.Column(2)"
+                    StatusBarText ="Ville"
+                    FontName ="Arial"
+                    ControlTipText ="Ville"
+                    AsianLineBreak =0
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "SFrmSaisieCallSocietes.cls"

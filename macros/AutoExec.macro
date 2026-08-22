@@ -1,0 +1,36 @@
+﻿Version =196611
+ColumnsShown =2
+Begin
+    Condition ="VerifieFichiers()=False"
+    Action ="MsgBox"
+    Comment ="Verification Des Fichiers De La Base Et Ouverture Si Ok"
+    Argument ="Attention Probleme De Fichier"
+    Argument ="-1"
+    Argument ="1"
+    Argument ="CDP 2003 - Verification Des Fichiers - DataSource/Safari 2003"
+End
+Begin
+    Action ="RunCode"
+    Comment ="Mise A Jour TBLSOCIETESRESULATS2003"
+    Argument ="MiseAJour () "
+End
+Begin
+    Action ="RunCode"
+    Comment ="Initialisation De La Gestion Messages"
+    Argument ="InitialiseMessagerie () "
+End
+Begin
+    Action ="RunCode"
+    Comment ="Ouvre Le Formulaire Du Menu Principale"
+    Argument ="OuvreMenuPrincipale () "
+End
+Begin
+    Action ="OpenForm"
+    Comment ="Ouvre Le Formulaire About"
+    Argument ="FrmAbout"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End

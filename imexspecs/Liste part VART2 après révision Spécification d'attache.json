@@ -1,0 +1,166 @@
+﻿{
+  "Info": {
+    "Class": "clsDbImexSpec",
+    "Description": "Import/Export Specification from MSysIMEXSpecs"
+  },
+  "Items": {
+    "DateDelim": "/",
+    "DateFourDigitYear": true,
+    "DateLeadingZeros": false,
+    "DateOrder": 0,
+    "DecimalPoint": ",",
+    "FieldSeparator": "\t",
+    "FileType": 1252,
+    "SpecName": "Liste part VART2 après révision Spécification d'attache",
+    "SpecType": 1,
+    "StartRow": 1,
+    "TextDelim": "",
+    "TimeDelim": ":",
+    "Columns": {
+      "2": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 210,
+        "Width": 2
+      },
+      "adresse 1": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 162,
+        "Width": 22
+      },
+      "adresse 2": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 184,
+        "Width": 10
+      },
+      "Autorisation Inscription": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 79,
+        "Width": 25
+      },
+      "Champ7": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 42,
+        "Width": 14
+      },
+      "cp": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 194,
+        "Width": 6
+      },
+      "Date inscription": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 62,
+        "Width": 17
+      },
+      "email": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 56,
+        "Width": 6
+      },
+      "ICMS": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 1,
+        "Width": 8
+      },
+      "Libelle": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 9,
+        "Width": 13
+      },
+      "login": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 212,
+        "Width": 6
+      },
+      "Matricule": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 22,
+        "Width": 10
+      },
+      "matricule societe": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 104,
+        "Width": 18
+      },
+      "password": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 218,
+        "Width": 9
+      },
+      "Prénom": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 32,
+        "Width": 10
+      },
+      "Raison sociale": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 132,
+        "Width": 30
+      },
+      "Région MS": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 122,
+        "Width": 10
+      },
+      "ville": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 200,
+        "Width": 10
+      }
+    }
+  }
+}

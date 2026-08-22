@@ -1,0 +1,59 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelEtatRelevesSocietesSoldesSTAAdhConTAIns"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes STA Adh, Contacts Inscrits, Soldes A Date Releves\r\nUtiliser Par:\r\n- EtaSocietesSTAAdhConTAInsSoldesReleves"
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -6,
+        "top": -25,
+        "right": 1282,
+        "bottom": 938
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1185,
+        "bottom": 317
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "SelSocietesSTAAdhVillesContactsTAInscrit",
+          "Alias": "",
+          "Left": 187,
+          "Top": 6,
+          "Right": 448,
+          "Bottom": 278,
+          "ScrollTop": 11
+        },
+        {
+          "Name": "SelSocietesResultatsBonusDetaillerReleves",
+          "Alias": "",
+          "Left": 473,
+          "Top": 18,
+          "Right": 778,
+          "Bottom": 275,
+          "ScrollTop": 12
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes STA Adh, Contacts Inscrits, Soldes A Date Releves\r\nUtiliser Par:\r\n- EtaSocietesSTAAdhConTAInsSoldesReleves"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMouvementsCadeaux"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 1,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Mouvements Cadeaux\r\nUtiliser Par:\r\n- ModGestionMouvements"
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -6,
+        "top": -25,
+        "right": 1282,
+        "bottom": 938
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 981,
+        "bottom": 371
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 5,
+          "Top": 3,
+          "Right": 116,
+          "Bottom": 185,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Mouvements Cadeaux\r\nUtiliser Par:\r\n- ModGestionMouvements"
+      }
+    }
+  }
+}

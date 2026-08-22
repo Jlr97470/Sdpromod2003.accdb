@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLSOCIETESADHERENTS",
+    "Connect": ";DATABASE=rel:SdProFich2003.accdb",
+    "SourceTableName": "TBLSOCIETESADHERENTS",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[SocAdhSocNum], [-SocAdhExeNum], [-SocAdhDate]"
+  }
+}

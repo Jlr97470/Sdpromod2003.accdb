@@ -1,0 +1,109 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesResultatsBonusDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "RecordLocks": {
+        "Type": 2,
+        "Value": 2
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Resultats Bonus\r\nUtiliser Par :\r\n- AjoTBLSOCIETESRESULTATS2003\r\n"
+      }
+    },
+    "Columns": {
+      "BonusISO2003S1": {
+        "ColumnWidth": 1725,
+        "AggregateType": -1
+      },
+      "BonusISO2003S1Ann": {
+        "ColumnWidth": 2070,
+        "AggregateType": -1
+      },
+      "BonusISO2003S2": {
+        "ColumnWidth": 1725,
+        "AggregateType": -1
+      },
+      "BonusISO2003S2Ann": {
+        "ColumnWidth": 2070,
+        "AggregateType": -1
+      },
+      "BonusISO2004S1": {
+        "ColumnWidth": 1725,
+        "AggregateType": -1
+      },
+      "BonusISO2004S1Ann": {
+        "ColumnWidth": 2070,
+        "AggregateType": -1
+      },
+      "BonusISO2004S2": {
+        "ColumnWidth": 1725,
+        "AggregateType": -1
+      },
+      "BonusISO2004S2Ann": {
+        "ColumnWidth": 2070,
+        "AggregateType": -1
+      },
+      "BonusRea2003": {
+        "ColumnWidth": 1140,
+        "AggregateType": -1
+      },
+      "BonusRea2004": {
+        "ColumnWidth": 1140,
+        "AggregateType": -1
+      },
+      "Solde": {
+        "ColumnWidth": 915,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -6,
+        "top": -25,
+        "right": 1282,
+        "bottom": 938
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1200,
+        "bottom": 555
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "SelSocietesResultatsSemestresDetailler",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 330,
+          "Bottom": 503,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelSocietesSoldesExercicesDetailler",
+          "Alias": "",
+          "Left": 432,
+          "Top": 43,
+          "Right": 822,
+          "Bottom": 270,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Resultats Bonus\r\nUtiliser Par :\r\n- AjoTBLSOCIETESRESULTATS2003\r\n"
+      }
+    }
+  }
+}

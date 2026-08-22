@@ -1,0 +1,49 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelContactsFonctions"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Contacts, Fonctions\r\nUtiliser Par :\r\n- FrmFicheSocietes"
+      }
+    },
+    "Columns": {
+      "TBLCONTACTSFONCTIONS.ConFonCode": {
+        "Caption": "Fonction Code",
+        "ColumnWidth": 1440,
+        "Description": "Fonction Code",
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1258,
+        "bottom": 374
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1211,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Contacts, Fonctions\r\nUtiliser Par :\r\n- FrmFicheSocietes"
+      }
+    }
+  }
+}

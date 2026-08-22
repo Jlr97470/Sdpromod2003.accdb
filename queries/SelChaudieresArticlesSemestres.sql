@@ -1,0 +1,20 @@
+﻿SELECT
+  ChdRemNum,
+  ChdRemSocNum,
+  ChdRemDate,
+  ChdRemHeure,
+  ChdRemSerie,
+  ChdRemChdArtRef,
+  ChdArtLibelle,
+  SemLibelle,
+  ChdRemServ,
+  ChdRemRemp
+FROM
+  TBLSEMESTRES
+  INNER JOIN (
+    TBLCHAUDIERESARTICLES
+    INNER JOIN TBLCHAUDIERESREMONTEES ON TBLCHAUDIERESARTICLES.ChdArtRef = TBLCHAUDIERESREMONTEES.ChdRemChdArtRef
+  ) ON TBLSEMESTRES.SemNum = TBLCHAUDIERESREMONTEES.ChdRemSemNum
+ORDER BY
+  ChdRemDate DESC,
+  ChdRemHeure DESC;

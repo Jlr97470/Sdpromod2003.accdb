@@ -1,0 +1,34 @@
+﻿{
+  "Info": {
+    "Class": "clsDbForm",
+    "Description": "FrmFicheContacts Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 0.984,
+      "TopMargin": 0.984,
+      "RightMargin": 0.984,
+      "BotMargin": 0.984,
+      "DataOnly": false,
+      "Width": 5.5104,
+      "Height": 5.7083,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Formulaire De La Fiche Contacts"
+      }
+    }
+  }
+}

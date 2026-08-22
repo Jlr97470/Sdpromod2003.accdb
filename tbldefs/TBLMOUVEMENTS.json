@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLMOUVEMENTS",
+    "Connect": ";DATABASE=rel:SdProFich2003.accdb",
+    "SourceTableName": "TBLMOUVEMENTS",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[MvtSocNum], [MvtExeNum], [MvtMvtNatNum], [MvtDossier]"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLSOCIETESRESULTATSBONUS",
+    "Connect": ";DATABASE=rel:SdProFich2003.accdb",
+    "SourceTableName": "TBLSOCIETESRESULTATSBONUS",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[SocNum]"
+  }
+}

@@ -1,0 +1,68 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesResultatsExercices2001"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes Et Resultats Exercices 2001"
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -6,
+        "top": -25,
+        "right": 1282,
+        "bottom": 938
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 981,
+        "bottom": 508
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 83,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "UniSocietesResultats",
+          "Alias": "",
+          "Left": 172,
+          "Top": 6,
+          "Right": 268,
+          "Bottom": 98,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSEMESTRES",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 402,
+          "Bottom": 98,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes Et Resultats Exercices 2001"
+      }
+    }
+  }
+}

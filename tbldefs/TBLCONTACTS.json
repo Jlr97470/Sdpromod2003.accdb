@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLCONTACTS",
+    "Connect": ";DATABASE=rel:SdProFich2003.accdb",
+    "SourceTableName": "TBLCONTACTS",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ConNom], [ConPrenom]"
+  }
+}

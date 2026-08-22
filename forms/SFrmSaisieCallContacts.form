@@ -1,0 +1,182 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    AutoResize = NotDefault
+    RecordSelectors = NotDefault
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    ShortcutMenu = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    CloseButton = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowEdits = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    ViewsAllowed =1
+    TabularFamily =220
+    BorderStyle =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    Cycle =1
+    GridY =10
+    Width =9465
+    DatasheetFontHeight =10
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x025683cf56a0e240
+    End
+    RecordSource ="SELECT TBLCONTACTS.ConNum, TBLCONTACTS.ConDateMaj, TBLCONTACTS.ConCivCode, TBLCO"
+        "NTACTS.ConNom, TBLCONTACTS.ConPrenom, TBLCONTACTS.ConTelPort, TBLCONTACTS.ConSoc"
+        "Num FROM TBLCONTACTS WHERE (((TBLCONTACTS.ConInscrit)=True)); "
+    BeforeUpdate ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    AllowDatasheetView =0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontName ="Tahoma"
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Tahoma"
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            OldBorderStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Tahoma"
+            AsianLineBreak =255
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            Width =1701
+            LabelX =-1701
+            FontName ="Tahoma"
+        End
+        Begin Subform
+            SpecialEffect =2
+            Width =1701
+            Height =1701
+        End
+        Begin Section
+            Height =360
+            Name ="Détail"
+            Begin
+                Begin TextBox
+                    FELineBreak = NotDefault
+                    SpecialEffect =3
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =7605
+                    Top =60
+                    Width =1830
+                    Height =270
+                    TabIndex =3
+                    BackColor =12632256
+                    ForeColor =-2147483640
+                    Name ="TxtSocCallConPort"
+                    ControlSource ="ConTelPort"
+                    StatusBarText ="Societe Call Contact Portable"
+                    FontName ="Arial"
+                    InputMask ="00\\ 00\\ 00\\ 00\\ 00;;_"
+                    ControlTipText ="Societe Call Contact Portable"
+                    AsianLineBreak =0
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    FELineBreak = NotDefault
+                    SpecialEffect =3
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =60
+                    Top =45
+                    Width =1890
+                    Height =270
+                    BackColor =12632256
+                    ForeColor =-2147483640
+                    Name ="TxtSocCallConCiv"
+                    ControlSource ="ConCivCode"
+                    StatusBarText ="Societe Call Contact Civilite"
+                    FontName ="Arial"
+                    ControlTipText ="Societe Call Contact Civilite"
+                    AsianLineBreak =0
+                End
+                Begin TextBox
+                    FELineBreak = NotDefault
+                    SpecialEffect =3
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =1995
+                    Top =45
+                    Width =1755
+                    Height =270
+                    TabIndex =1
+                    BackColor =12632256
+                    ForeColor =-2147483640
+                    Name ="TxtSocCallConNom"
+                    ControlSource ="ConNom"
+                    StatusBarText ="Societe Call Contact Nom"
+                    FontName ="Arial"
+                    ControlTipText ="Societe Call Contact Nom"
+                    AsianLineBreak =0
+                End
+                Begin TextBox
+                    FELineBreak = NotDefault
+                    SpecialEffect =3
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =3825
+                    Top =45
+                    Width =1875
+                    Height =270
+                    TabIndex =2
+                    BackColor =12632256
+                    ForeColor =-2147483640
+                    Name ="TxtSocCallConPrenom"
+                    ControlSource ="ConPrenom"
+                    StatusBarText ="Societe Call Contact Prenom"
+                    FontName ="Arial"
+                    ControlTipText ="Societe Call Contact Prenom"
+                    AsianLineBreak =0
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =6645
+                    Top =45
+                    Width =900
+                    Height =255
+                    BackColor =-2147483633
+                    ForeColor =128
+                    Name ="EtiSocCallConPort"
+                    Caption ="Portable :"
+                    FontName ="MS Sans Serif"
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "SFrmSaisieCallContacts.cls"
