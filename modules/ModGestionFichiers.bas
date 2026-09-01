@@ -253,7 +253,7 @@ Public Function VerifieTableInformationConnexion() As Boolean
 
             LectureTableInformationConnexion TdfTable, StrType, StrParametre, StrChemin, StrFichier
 
-            StrExtension = UCase(Right(StrFichier, 3))
+            StrExtension = UCase(Mid(StrFichier, InStrRev(StrFichier, ".") + 1))
 
             CurrentDb.Execute "UPDATE TBLFICHIERS SET FicValide=False WHERE FicType='FIC" & StrExtension & "' AND FicCode LIKE '*=" & StrFichier & "' ;"
 
