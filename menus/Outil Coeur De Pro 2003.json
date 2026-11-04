@@ -16,11 +16,9 @@
         "ControlIdName": "Open Form",
         "BeginGroup": false,
         "BuiltIn": true,
-        "BuiltInFace": false,
         "Caption": "Fiche Des Sociétés",
         "DescriptionText": "Ouvrir formulaire 'FrmFicheSocietes'",
         "Enabled": true,
-        "FaceId": 31,
         "HelpContextId": 0,
         "HelpFile": "",
         "HyperlinkType": 0,
@@ -33,17 +31,16 @@
         "TooltipText": "Ouvrir formulaire 'FrmFicheSocietes' (Ctrl + F1)",
         "Type": 1,
         "Visible": true,
-        "Id": 1837
+        "Id": 1837,
+        "ImagePath": "rel:Outil Coeur De Pro 2003_Images\\Fiche Des Sociétés"
       },
       {
         "ControlIdName": "Open Form",
         "BeginGroup": false,
         "BuiltIn": true,
-        "BuiltInFace": false,
         "Caption": "Fiche Des Contacts",
         "DescriptionText": "Ouvrir formulaire 'FrmFicheContacts'",
         "Enabled": true,
-        "FaceId": 31,
         "HelpContextId": 0,
         "HelpFile": "",
         "HyperlinkType": 0,
@@ -56,17 +53,16 @@
         "TooltipText": "Ouvrir formulaire 'FrmFicheContacts' (Ctrl + F2)",
         "Type": 1,
         "Visible": true,
-        "Id": 1837
+        "Id": 1837,
+        "ImagePath": "rel:Outil Coeur De Pro 2003_Images\\Fiche Des Contacts"
       },
       {
         "ControlIdName": "Open Form",
         "BeginGroup": true,
         "BuiltIn": true,
-        "BuiltInFace": false,
         "Caption": "Recherche Simple",
         "DescriptionText": "Ouvrir formulaire 'FrmRecherche'",
         "Enabled": true,
-        "FaceId": 2151,
         "HelpContextId": 0,
         "HelpFile": "",
         "HyperlinkType": 0,
@@ -79,17 +75,16 @@
         "TooltipText": "Ouvrir formulaire 'FrmRecherche' (Ctrl + F3)",
         "Type": 1,
         "Visible": true,
-        "Id": 1837
+        "Id": 1837,
+        "ImagePath": "rel:Outil Coeur De Pro 2003_Images\\Recherche Simple"
       },
       {
         "ControlIdName": "Open Form",
         "BeginGroup": true,
         "BuiltIn": true,
-        "BuiltInFace": false,
         "Caption": "Selection Des Sociétés",
         "DescriptionText": "Ouvrir formulaire 'FrmLstSocietes'",
         "Enabled": true,
-        "FaceId": 274,
         "HelpContextId": 0,
         "HelpFile": "",
         "HyperlinkType": 0,
@@ -102,17 +97,16 @@
         "TooltipText": "Ouvrir formulaire 'FrmLstSocietes'",
         "Type": 1,
         "Visible": true,
-        "Id": 1837
+        "Id": 1837,
+        "ImagePath": "rel:Outil Coeur De Pro 2003_Images\\Selection Des Sociétés"
       },
       {
         "ControlIdName": "Open Form",
         "BeginGroup": false,
         "BuiltIn": true,
-        "BuiltInFace": false,
         "Caption": "Selection Des Contacts",
         "DescriptionText": "Ouvrir formulaire 'FrmLstContacts'",
         "Enabled": true,
-        "FaceId": 274,
         "HelpContextId": 0,
         "HelpFile": "",
         "HyperlinkType": 0,
@@ -125,17 +119,16 @@
         "TooltipText": "Ouvrir formulaire 'FrmLstContacts'",
         "Type": 1,
         "Visible": true,
-        "Id": 1837
+        "Id": 1837,
+        "ImagePath": "rel:Outil Coeur De Pro 2003_Images\\Selection Des Contacts"
       },
       {
         "ControlIdName": "About",
         "BeginGroup": true,
         "BuiltIn": true,
-        "BuiltInFace": false,
         "Caption": "Liste Des Machines",
         "DescriptionText": "Exécuter macro 'MacMenuPrincipale.Liste Machines'",
         "Enabled": true,
-        "FaceId": 2141,
         "HelpContextId": 0,
         "HelpFile": "",
         "HyperlinkType": 0,
@@ -148,17 +141,16 @@
         "TooltipText": "Exécuter macro 'MacMenuPrincipale.Liste Machines'",
         "Type": 1,
         "Visible": true,
-        "Id": 1839
+        "Id": 1839,
+        "ImagePath": "rel:Outil Coeur De Pro 2003_Images\\Liste Des Machines"
       },
       {
         "ControlIdName": "About",
         "BeginGroup": true,
         "BuiltIn": true,
-        "BuiltInFace": false,
         "Caption": "Gestion Des Messages",
         "DescriptionText": "Exécuter macro 'MacMenuPrincipale.Gestion Messages'",
         "Enabled": true,
-        "FaceId": 2148,
         "HelpContextId": 0,
         "HelpFile": "",
         "HyperlinkType": 0,
@@ -171,7 +163,8 @@
         "TooltipText": "Exécuter macro 'MacMenuPrincipale.Gestion Messages'",
         "Type": 1,
         "Visible": true,
-        "Id": 1839
+        "Id": 1839,
+        "ImagePath": "rel:Outil Coeur De Pro 2003_Images\\Gestion Des Messages"
       }
     ]
   }

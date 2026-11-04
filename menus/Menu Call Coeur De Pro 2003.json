@@ -50,11 +50,9 @@
             "ControlIdName": "About",
             "BeginGroup": false,
             "BuiltIn": true,
-            "BuiltInFace": false,
             "Caption": "Fiche Des Societes",
             "DescriptionText": "Exécuter macro 'MacMenuPrincipale.Fiche Societes'",
             "Enabled": true,
-            "FaceId": 31,
             "HelpContextId": 0,
             "HelpFile": "",
             "HyperlinkType": 0,
@@ -67,17 +65,16 @@
             "TooltipText": "Exécuter macro 'MacMenuPrincipale.Fiche Societes'",
             "Type": 1,
             "Visible": true,
-            "Id": 1839
+            "Id": 1839,
+            "ImagePath": "rel:Menu Call Coeur De Pro 2003_Images\\Fiche Des Societes"
           },
           {
             "ControlIdName": "About",
             "BeginGroup": false,
             "BuiltIn": true,
-            "BuiltInFace": false,
             "Caption": "Fiche Des Contacts",
             "DescriptionText": "Exécuter macro 'MacMenuPrincipale.Fiche Contacts'",
             "Enabled": true,
-            "FaceId": 31,
             "HelpContextId": 0,
             "HelpFile": "",
             "HyperlinkType": 0,
@@ -90,7 +87,8 @@
             "TooltipText": "Exécuter macro 'MacMenuPrincipale.Fiche Contacts'",
             "Type": 1,
             "Visible": true,
-            "Id": 1839
+            "Id": 1839,
+            "ImagePath": "rel:Menu Call Coeur De Pro 2003_Images\\Fiche Des Contacts"
           }
         ]
       },
@@ -115,11 +113,9 @@
             "ControlIdName": "About",
             "BeginGroup": false,
             "BuiltIn": true,
-            "BuiltInFace": false,
             "Caption": "Liste Des Machines",
             "DescriptionText": "Exécuter macro 'MacMenuPrincipale.Liste Machines'",
             "Enabled": true,
-            "FaceId": 176,
             "HelpContextId": 0,
             "HelpFile": "",
             "HyperlinkType": 0,
@@ -132,7 +128,8 @@
             "TooltipText": "Exécuter macro 'MacMenuPrincipale.Liste Machines'",
             "Type": 1,
             "Visible": true,
-            "Id": 1839
+            "Id": 1839,
+            "ImagePath": "rel:Menu Call Coeur De Pro 2003_Images\\Liste Des Machines"
           }
         ]
       },
@@ -157,11 +154,9 @@
             "ControlIdName": "About",
             "BeginGroup": false,
             "BuiltIn": true,
-            "BuiltInFace": false,
             "Caption": "Recherche Simple",
             "DescriptionText": "Exécuter macro 'MacMenuPrincipale.Recherche Simple'",
             "Enabled": true,
-            "FaceId": 2151,
             "HelpContextId": 0,
             "HelpFile": "",
             "HyperlinkType": 0,
@@ -174,17 +169,16 @@
             "TooltipText": "Exécuter macro 'MacMenuPrincipale.Recherche Simple'",
             "Type": 1,
             "Visible": true,
-            "Id": 1839
+            "Id": 1839,
+            "ImagePath": "rel:Menu Call Coeur De Pro 2003_Images\\Recherche Simple"
           },
           {
             "ControlIdName": "About",
             "BeginGroup": false,
             "BuiltIn": true,
-            "BuiltInFace": false,
             "Caption": "Recherche Des Societes",
             "DescriptionText": "Exécuter macro 'MacMenuPrincipale.Recherche Societes'",
             "Enabled": true,
-            "FaceId": 2151,
             "HelpContextId": 0,
             "HelpFile": "",
             "HyperlinkType": 0,
@@ -197,17 +191,16 @@
             "TooltipText": "Exécuter macro 'MacMenuPrincipale.Recherche Societes'",
             "Type": 1,
             "Visible": true,
-            "Id": 1839
+            "Id": 1839,
+            "ImagePath": "rel:Menu Call Coeur De Pro 2003_Images\\Recherche Des Societes"
           },
           {
             "ControlIdName": "About",
             "BeginGroup": false,
             "BuiltIn": true,
-            "BuiltInFace": false,
             "Caption": "Recherche Des Contacts",
             "DescriptionText": "Exécuter macro 'MacMenuPrincipale.Recherche Contacts'",
             "Enabled": true,
-            "FaceId": 2151,
             "HelpContextId": 0,
             "HelpFile": "",
             "HyperlinkType": 0,
@@ -220,17 +213,16 @@
             "TooltipText": "Exécuter macro 'MacMenuPrincipale.Recherche Contacts'",
             "Type": 1,
             "Visible": true,
-            "Id": 1839
+            "Id": 1839,
+            "ImagePath": "rel:Menu Call Coeur De Pro 2003_Images\\Recherche Des Contacts"
           },
           {
             "ControlIdName": "About",
             "BeginGroup": true,
             "BuiltIn": true,
-            "BuiltInFace": false,
             "Caption": "Selection Des Societes",
             "DescriptionText": "Exécuter macro 'MacMenuPrincipale.Selection Societes'",
             "Enabled": true,
-            "FaceId": 274,
             "HelpContextId": 0,
             "HelpFile": "",
             "HyperlinkType": 0,
@@ -243,17 +235,16 @@
             "TooltipText": "Exécuter macro 'MacMenuPrincipale.Selection Societes'",
             "Type": 1,
             "Visible": true,
-            "Id": 1839
+            "Id": 1839,
+            "ImagePath": "rel:Menu Call Coeur De Pro 2003_Images\\Selection Des Societes"
           },
           {
             "ControlIdName": "About",
             "BeginGroup": false,
             "BuiltIn": true,
-            "BuiltInFace": false,
             "Caption": "Selection Des Contacts",
             "DescriptionText": "Exécuter macro 'MacMenuPrincipale.Selection Contacts'",
             "Enabled": true,
-            "FaceId": 274,
             "HelpContextId": 0,
             "HelpFile": "",
             "HyperlinkType": 0,
@@ -266,14 +257,15 @@
             "TooltipText": "Exécuter macro 'MacMenuPrincipale.Selection Contacts'",
             "Type": 1,
             "Visible": true,
-            "Id": 1839
+            "Id": 1839,
+            "ImagePath": "rel:Menu Call Coeur De Pro 2003_Images\\Selection Des Contacts"
           }
         ]
       },
       {
-        "FaceIdName": "Records",
+        "ControlIdName": "Records",
         "BeginGroup": false,
-        "BuiltIn": false,
+        "BuiltIn": true,
         "Caption": "Enregi&strements",
         "DescriptionText": "",
         "Enabled": true,
@@ -286,11 +278,12 @@
         "TooltipText": "",
         "Type": 10,
         "Visible": false,
+        "Id": 30014,
         "Controls": [
           {
-            "FaceIdName": "Filter",
+            "ControlIdName": "Filter",
             "BeginGroup": false,
-            "BuiltIn": false,
+            "BuiltIn": true,
             "Caption": "&Filtrer",
             "DescriptionText": "",
             "Enabled": false,
@@ -303,6 +296,7 @@
             "TooltipText": "",
             "Type": 10,
             "Visible": true,
+            "Id": 30031,
             "Controls": [
               {
                 "ControlIdName": "Filter By Form",
@@ -347,9 +341,9 @@
             ]
           },
           {
-            "FaceIdName": "Sort",
+            "ControlIdName": "Sort",
             "BeginGroup": false,
-            "BuiltIn": false,
+            "BuiltIn": true,
             "Caption": "&Trier",
             "DescriptionText": "",
             "Enabled": false,
@@ -362,6 +356,7 @@
             "TooltipText": "",
             "Type": 10,
             "Visible": true,
+            "Id": 30103,
             "Controls": [
               {
                 "ControlIdName": "Sort Ascending",
@@ -462,9 +457,9 @@
         ]
       },
       {
-        "FaceIdName": "Window",
+        "ControlIdName": "Window",
         "BeginGroup": false,
-        "BuiltIn": false,
+        "BuiltIn": true,
         "Caption": "Fe&nêtre",
         "DescriptionText": "",
         "Enabled": true,
@@ -477,6 +472,7 @@
         "TooltipText": "",
         "Type": 10,
         "Visible": true,
+        "Id": 30009,
         "Controls": [
           {
             "ControlIdName": "Split",
